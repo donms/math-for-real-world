@@ -1,0 +1,17 @@
+# 「用数学看世界」复现依赖
+# 安装：pip install -r requirements.txt
+# 环境：Python 3.10+（本项目在 3.12.4 与 3.10.15 上均验证通过）
+
+numpy>=1.26,<3
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+
+# ---- 可选：Markdown → Word（公式转原生 OMML）----
+# python-docx>=1.1
+# latex2mathml>=3.77
+
+# ---- 视频配音不在本仓库复现路径内 ----
+# 本项目视频配音使用本地部署的 IndexTTS-2.5（零样本音色克隆 + 拼音级读音锁定），
+# 需独立环境 + torch 2.8 (CUDA) + 约 10 GB 模型权重，因体积与硬件要求未纳入。
+# 上游：https://github.com/index-tts/index-tts

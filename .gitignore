@@ -1,0 +1,24 @@
+# 隐私与大体积资源（如误放到此处请勿提交）
+media/audio/ref/
+models/
+envs/
+libs/
+checkpoints/
+hf_cache/
+*.mp4
+*.wav
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.workbuddy/
+~$*.docx
