@@ -69,8 +69,23 @@ def main() -> int:
                 if any(tok == a or tok.startswith(a) for a in allow):
                     continue
                 ctx = p[max(0, m.start() - 14):m.end() + 12]
-                hits.append({"sec": n, "para": i, "tok": tok,
+                hits.append({"kind": "阿拉伯数字", "sec": n, "para": i,
+                             "tok": tok,
                              "page": page_of.get((n, i)), "ctx": ctx})
+
+    # ★ 汉字数字的**读法**错误：年份写成基数读法。
+    #   实测漏网：`二千零三十五年` 正确读法是 `二零三五年`（逐位）——
+    #   它是**汉字**，所以"查阿拉伯数字"看不见它，用户听出来才发现。
+    #   判据：年份里出现「千 / 百」即为基数读法（年份不会这样读）。
+    for n in sorted(secs):
+        for i, p in enumerate(secs[n]):
+            for m in re.finditer(r"([零一二两三四五六七八九十百千]+)年", p):
+                w = m.group(1)
+                if "千" in w or "百" in w:
+                    hits.append({"kind": "年份基数读法", "sec": n, "para": i,
+                                 "tok": w + "年",
+                                 "page": page_of.get((n, i)),
+                                 "ctx": p[max(0, m.start() - 14):m.end() + 12]})
 
     print(f"  {args.ep}：扫节正文（跳过文件头说明块）")
     if not hits:
@@ -79,14 +94,15 @@ def main() -> int:
         return 0
 
     print(f"\n  ❌ 发现 {len(hits)} 处阿拉伯数字（TTS 会按基数读，很可能读错）：\n")
-    print(f"  {'屏':>4} {'节':>3} {'段':>3}  {'数字':<8} 上下文")
+    print(f"  {'屏':>4} {'节':>3} {'段':>3}  {'类型':<12} {'内容':<10} 上下文")
     print("  " + "-" * 76)
     for h in hits:
         pg = h["page"] if h["page"] else "—"
-        print(f"  {pg:>4} {h['sec']:>3} {h['para']:>3}  {h['tok']:<8} "
-              f"…{h['ctx']}…")
+        print(f"  {pg:>4} {h['sec']:>3} {h['para']:>3}  "
+              f"{h['kind']:<12} {h['tok']:<10} …{h['ctx']}…")
     print()
-    print("  改法：口播里把数字写成**汉字**（二零二六年、二点二四亿吨…）；")
+    print("  改法：① 阿拉伯数字 → 汉字（二零二六年、二点二四亿吨…）；")
+    print("        ② 年份必须**逐位**读（二零三五年），不能写基数（二千零三十五年）；")
     print("        画面要点才用阿拉伯数字 —— 两条路径有意分开。")
     if not allow:
         print(f"  （若确需保留，登记到本脚本的 ALLOW['{args.ep}']）")
