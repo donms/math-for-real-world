@@ -3,7 +3,7 @@
 > 从热点新闻里挑一个能用数学建模解决的问题，做成一道完整的题、一篇论文，
 > 再把结论讲清楚。**数据和代码全部公开。**
 
-本仓库对应 **2026-W43** 期：**2026-W43 期**
+本仓库对应 **2026-W43** 期：**老旧小区加装电梯：怎么分摊，才能谈成？**
 
 ## 结构
 
@@ -22,7 +22,7 @@ episodes/2026-W43/
 ```bash
 pip install -r requirements.txt
 cd episodes/2026-W43
-python scripts/q1_solve.py
+python scripts/q1_build_tables.py
 ```
 
 每个脚本把结果写到 `results/` 并打印关键中间量。
