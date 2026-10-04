@@ -1,0 +1,89 @@
+{
+  "n_rep": 150,
+  "rows": [
+    {
+      "p": 0.2,
+      "p_maint": 0.0,
+      "base_mean": 4.14,
+      "paired_diff": 0.0,
+      "se": 0.0,
+      "t": 0.0,
+      "significant": false
+    },
+    {
+      "p": 0.2,
+      "p_maint": 0.5,
+      "base_mean": 3.3466666666666667,
+      "paired_diff": 0.31333333333333335,
+      "se": 0.389474109573842,
+      "t": 0.8045036258666308,
+      "significant": false
+    },
+    {
+      "p": 0.2,
+      "p_maint": 1.0,
+      "base_mean": 3.4266666666666667,
+      "paired_diff": 0.02666666666666667,
+      "se": 0.28488337684774795,
+      "t": 0.0936055552336362,
+      "significant": false
+    },
+    {
+      "p": 0.1,
+      "p_maint": 0.0,
+      "base_mean": 1.5466666666666666,
+      "paired_diff": 0.0,
+      "se": 0.0,
+      "t": 0.0,
+      "significant": false
+    },
+    {
+      "p": 0.1,
+      "p_maint": 0.5,
+      "base_mean": 1.5066666666666666,
+      "paired_diff": -0.02666666666666667,
+      "se": 0.13207911217046212,
+      "t": -0.20189919684083357,
+      "significant": false
+    },
+    {
+      "p": 0.1,
+      "p_maint": 1.0,
+      "base_mean": 1.3866666666666667,
+      "paired_diff": 0.08,
+      "se": 0.17327481373190248,
+      "t": 0.46169433558750844,
+      "significant": false
+    },
+    {
+      "p": 0.05,
+      "p_maint": 0.0,
+      "base_mean": 0.64,
+      "paired_diff": 0.0,
+      "se": 0.0,
+      "t": 0.0,
+      "significant": false
+    },
+    {
+      "p": 0.05,
+      "p_maint": 0.5,
+      "base_mean": 0.76,
+      "paired_diff": -0.013333333333333334,
+      "se": 0.08081612054100983,
+      "t": -0.16498358550343165,
+      "significant": false
+    },
+    {
+      "p": 0.05,
+      "p_maint": 1.0,
+      "base_mean": 0.66,
+      "paired_diff": 0.006666666666666667,
+      "se": 0.09340521361199844,
+      "t": 0.071373603344667,
+      "significant": false
+    }
+  ],
+  "verdict": "维护者层**没有可测出的放大效应**（所有配对差的 |t| < 2）",
+  "maint_count": 16,
+  "rows_note": "paired comparison"
+}

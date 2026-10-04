@@ -1,0 +1,190 @@
+{
+  "clean": {
+    "nodes_raw": 7942,
+    "edges_raw": 13701,
+    "actions_dropped": 112,
+    "gh_roots_dropped": 20,
+    "nodes": 7830,
+    "edges": 13496
+  },
+  "in_degree": {
+    "name": "包图入度",
+    "n": 7830,
+    "mean": 1.7236270753512133,
+    "median": 1.0,
+    "p90": 3.0,
+    "p99": 13.0,
+    "max": 97.0,
+    "zero_frac": 0.002554278416347382,
+    "gini": 0.3801320253065854
+  },
+  "in_degree_dist": [
+    {
+      "bucket": "0",
+      "count": 20,
+      "frac": 0.002554278416347382
+    },
+    {
+      "bucket": "1",
+      "count": 6041,
+      "frac": 0.7715197956577267
+    },
+    {
+      "bucket": "2-4",
+      "count": 1405,
+      "frac": 0.17943805874840357
+    },
+    {
+      "bucket": "5-9",
+      "count": 231,
+      "frac": 0.02950191570881226
+    },
+    {
+      "bucket": "10-49",
+      "count": 127,
+      "frac": 0.016219667943805874
+    },
+    {
+      "bucket": "50+",
+      "count": 6,
+      "frac": 0.0007662835249042146
+    }
+  ],
+  "downstream_reach": {
+    "name": "下游可达",
+    "n": 7830,
+    "mean": 6.884163473818647,
+    "median": 0.0,
+    "p90": 6.0,
+    "p99": 91.71000000000004,
+    "max": 3041.0,
+    "zero_frac": 0.7270753512132823,
+    "gini": 0.9567251817387599
+  },
+  "top_in_degree": [
+    [
+      97,
+      "@babel/helper-plugin-utils@7.29.7"
+    ],
+    [
+      77,
+      "tslib@2.8.1"
+    ],
+    [
+      61,
+      "postcss-value-parser@4.2.0"
+    ],
+    [
+      57,
+      "babel-runtime@6.26.0"
+    ],
+    [
+      52,
+      "typing-extensions@4.16.0"
+    ],
+    [
+      51,
+      "semver@7.8.5"
+    ],
+    [
+      43,
+      "debug@4.4.3"
+    ],
+    [
+      40,
+      "@radix-ui/react-primitive@2.1.10"
+    ],
+    [
+      40,
+      "call-bound@1.0.4"
+    ],
+    [
+      38,
+      "devlop@1.1.0"
+    ],
+    [
+      38,
+      "es-errors@1.3.0"
+    ],
+    [
+      37,
+      "chalk@4.1.2"
+    ],
+    [
+      37,
+      "graceful-fs@4.2.11"
+    ],
+    [
+      32,
+      "micromark-util-types@2.0.2"
+    ],
+    [
+      31,
+      "@radix-ui/primitive@1.1.7"
+    ],
+    [
+      31,
+      "@radix-ui/react-context@1.2.2"
+    ],
+    [
+      30,
+      "@csstools/css-tokenizer@3.0.4"
+    ],
+    [
+      29,
+      "@types/node@26.6.2"
+    ],
+    [
+      29,
+      "micromark-util-symbol@2.0.1"
+    ],
+    [
+      28,
+      "@csstools/css-parser-algorithms@3.0.5"
+    ]
+  ],
+  "concentration": {
+    "0.1": 0.03245406046235922,
+    "1": 0.14382039122703022,
+    "5": 0.3045346769413159,
+    "10": 0.40174866627148786,
+    "20": 0.5223029045643154
+  },
+  "closure_top5": [
+    [
+      3042,
+      "com.github.astral-sh/uv@main"
+    ],
+    [
+      2492,
+      "com.github.jestjs/jest@main"
+    ],
+    [
+      2013,
+      "com.github.webpack/webpack@main"
+    ],
+    [
+      625,
+      "com.github.lodash/lodash@main"
+    ],
+    [
+      241,
+      "com.github.fastapi/fastapi@master"
+    ]
+  ],
+  "merged_byname": {
+    "nodes": 5797
+  },
+  "actions_examples": [
+    "AndreMiras/coveralls-python-action@ac868b9540fad490f7ca82b8ca00480fd751ed19",
+    "CodSpeedHQ/action@373d6868929f444bc08d901fd0eb0ad52a8875ea",
+    "Ilshidur/action-discord@d2594079a10f1d6739ee50a2471f0ca57418b554",
+    "Nef10/lcov-reporter-action@797ec1c1e78e3a9a7890c1a104d58b9e05fcef76",
+    "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+    "SimenB/github-actions-cpu-cores@97330871fe1b7d3529392ea000e3d2c4b357e403",
+    "Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6",
+    "Vampire/setup-wsl@d1da7f2c0322a5ee4f24975344f67fc0f5baf364",
+    "acj/freebsd-firecracker-action@e04896d2dd91f7ec7381e5f363c6fbe83ee445c3",
+    "actions-cool/maintain-one-comment-backup@fbbc22ad1809c1bcf46f19b58397b6254773588c"
+  ]
+}

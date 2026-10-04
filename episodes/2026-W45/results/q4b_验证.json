@@ -1,0 +1,71 @@
+{
+  "sub_nodes": 80,
+  "sub_edges": 111,
+  "base": 430,
+  "rows": [
+    {
+      "k": 1,
+      "optimal": 374,
+      "greedy": 374,
+      "ratio": 1.0,
+      "same_set": true,
+      "opt_set": [
+        "pytest"
+      ],
+      "greedy_set": [
+        "pytest"
+      ]
+    },
+    {
+      "k": 2,
+      "optimal": 325,
+      "greedy": 327,
+      "ratio": 0.9809523809523809,
+      "same_set": false,
+      "opt_set": [
+        "com.github.psf/requests@main",
+        "com.github.sqlalchemy/sqlalchemy@main"
+      ],
+      "greedy_set": [
+        "pytest",
+        "com.github.psf/requests@main"
+      ]
+    },
+    {
+      "k": 3,
+      "optimal": 282,
+      "greedy": 283,
+      "ratio": 0.9932432432432432,
+      "same_set": false,
+      "opt_set": [
+        "com.github.astral-sh/uv@main",
+        "com.github.psf/requests@main",
+        "com.github.sqlalchemy/sqlalchemy@main"
+      ],
+      "greedy_set": [
+        "pytest",
+        "com.github.psf/requests@main",
+        "com.github.sqlalchemy/sqlalchemy@main"
+      ]
+    },
+    {
+      "k": 4,
+      "optimal": 247,
+      "greedy": 247,
+      "ratio": 1.0,
+      "same_set": true,
+      "opt_set": [
+        "com.github.astral-sh/uv@main",
+        "com.github.psf/requests@main",
+        "com.github.sqlalchemy/sqlalchemy@main",
+        "pytest"
+      ],
+      "greedy_set": [
+        "pytest",
+        "com.github.psf/requests@main",
+        "com.github.sqlalchemy/sqlalchemy@main",
+        "com.github.astral-sh/uv@main"
+      ]
+    }
+  ]
+}

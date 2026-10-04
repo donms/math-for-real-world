@@ -1,0 +1,37 @@
+{
+  "closure_sizes": {
+    "com.github.astral-sh/uv@main": 3076,
+    "com.github.boto/boto3@develop": 60,
+    "com.github.celery/celery@main": 120,
+    "com.github.eslint/eslint@main": 139,
+    "com.github.expressjs/express@master": 54,
+    "com.github.fastapi/fastapi@master": 259,
+    "com.github.gotwarlost/istanbul@master": 20,
+    "com.github.jestjs/jest@main": 2501,
+    "com.github.lodash/lodash@main": 631,
+    "com.github.numpy/numpy@main": 114,
+    "com.github.pallets/flask@main": 139,
+    "com.github.pandas-dev/pandas@main": 107,
+    "com.github.psf/black@main": 55,
+    "com.github.psf/requests@main": 29,
+    "com.github.pytest-dev/pytest@main": 89,
+    "com.github.python-poetry/poetry@main": 157,
+    "com.github.scikit-learn/scikit-learn@main": 48,
+    "com.github.sqlalchemy/sqlalchemy@main": 29,
+    "com.github.vuejs/core@main": 56,
+    "com.github.webpack/webpack@main": 2030
+  },
+  "union_nodes": 7942,
+  "union_edges": 13701,
+  "nodes_in_multiple_closures": 1385,
+  "reach_union": {
+    "mean": 8.176026189876605,
+    "median": 0.0,
+    "max": 3075.0
+  },
+  "reach_single_tree": {
+    "mean": 6.8128934777134225,
+    "median": 0.0,
+    "max": 3075.0
+  }
+}

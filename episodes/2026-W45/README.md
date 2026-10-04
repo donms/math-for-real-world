@@ -3,12 +3,12 @@
 > 从热点新闻里挑一个能用数学建模解决的问题，做成一道完整的题、一篇论文，
 > 再把结论讲清楚。**数据和代码全部公开。**
 
-本仓库对应 **2026-W44** 期：**幼儿园关停：出生人口下降的传导，到最坏时刻了吗？**
+本仓库对应 **2026-W45** 期：**一颗老鼠屎能坏多少锅汤？——开源供应链蠕虫式扩散的图论建模与加固预算优化**
 
 ## 结构
 
 ```
-episodes/2026-W44/
+episodes/2026-W45/
   paper/               论文（Markdown）
   scripts/             可复现的求解代码
   results/             数值结果 + figs/ 插图
@@ -21,7 +21,7 @@ episodes/2026-W44/
 
 ```bash
 pip install -r requirements.txt
-cd episodes/2026-W44
+cd episodes/2026-W45
 python scripts/q1_solve.py
 ```
 
@@ -30,7 +30,7 @@ python scripts/q1_solve.py
 
 ## 本期的定位
 
-见 `episodes/2026-W44/paper/论文.md` 的开头与「模型的评价与推广」一节：
+见 `episodes/2026-W45/paper/论文.md` 的开头与「模型的评价与推广」一节：
 论文中明确写有模型假设、适用范围与**诚实性声明**。
 
 ## 三条硬规矩
