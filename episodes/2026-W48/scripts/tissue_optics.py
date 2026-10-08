@@ -4,7 +4,7 @@ r"""W48 · 组织光学参数（**实测值，非估计**）。
 
 ## 来源
 
-*Nature Communications* 2022, 13:2013, Table 1
+Song, X., Guo, Y., Li, H., Chen, C., Lee, J. H., Zhang, Y., Schmidt, Z. & Wang, X. *Nat. Commun.* **13, 2238 (2022)**, DOI: 10.1038/s41467-022-29864-7, Table 1
 「Optical and physical properties of the skull and the brain」
 （狨猴 through-skull 宽场光学成像研究）
 https://www.nature.com/articles/s41467-022-29864-7/tables/1
