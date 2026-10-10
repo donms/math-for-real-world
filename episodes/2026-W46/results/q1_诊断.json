@@ -1,0 +1,90 @@
+{
+  "defect_A_coexistence": {
+    "trials": [
+      {
+        "phi": 0.85,
+        "omega": 0.01,
+        "share_end": 0.0435350748662746,
+        "share_min": 0.0035682097881233423,
+        "share_max": 0.9610365371429044,
+        "coexist": false
+      },
+      {
+        "phi": 0.85,
+        "omega": 0.03333333333333333,
+        "share_end": 0.8064180249201494,
+        "share_min": 0.2277261234505406,
+        "share_max": 0.8272297900068885,
+        "coexist": true
+      },
+      {
+        "phi": 1.0,
+        "omega": 0.01,
+        "share_end": 0.5,
+        "share_min": 0.5,
+        "share_max": 0.5,
+        "coexist": true
+      },
+      {
+        "phi": 1.0,
+        "omega": 0.03333333333333333,
+        "share_end": 0.5,
+        "share_min": 0.5,
+        "share_max": 0.5,
+        "coexist": true
+      },
+      {
+        "phi": 1.18,
+        "omega": 0.01,
+        "share_end": 0.10367327590443248,
+        "share_min": 0.05613156242150372,
+        "share_max": 0.920612175679891,
+        "coexist": true
+      },
+      {
+        "phi": 1.18,
+        "omega": 0.03333333333333333,
+        "share_end": 0.10787646945535109,
+        "share_min": 0.058648039496287295,
+        "share_max": 0.8364985284483236,
+        "coexist": true
+      },
+      {
+        "phi": 1.5,
+        "omega": 0.01,
+        "share_end": 0.008662945818100926,
+        "share_min": 0.0002257687232744614,
+        "share_max": 0.985646851114299,
+        "coexist": false
+      },
+      {
+        "phi": 1.5,
+        "omega": 0.03333333333333333,
+        "share_end": 0.1366249449260577,
+        "share_min": 0.009428646955139394,
+        "share_max": 0.8692011687775975,
+        "coexist": false
+      }
+    ],
+    "n_coexist": 5
+  },
+  "defect_B_variability": {
+    "cv_model": 0.4218063187018351,
+    "cv_data": 0.35470548797115,
+    "n_model": 16,
+    "n_data": 27
+  },
+  "defect_C_amplitude": {
+    "model_range": [
+      0.056128866715639006,
+      0.9542692073107225
+    ],
+    "model_sd": 0.28460192561537206,
+    "data_range": [
+      0.15002762359867786,
+      0.9964902944512709
+    ],
+    "data_sd": 0.2354903569331443,
+    "ratio": 0.8274376795728359
+  }
+}

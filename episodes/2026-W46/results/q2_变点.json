@@ -1,0 +1,49 @@
+{
+  "family_I": {
+    "A/uniform": {
+      "mode_week": 35,
+      "hdi": [
+        23,
+        35
+      ],
+      "width_weeks": 12
+    },
+    "A/edge": {
+      "mode_week": 35,
+      "hdi": [
+        23,
+        35
+      ],
+      "width_weeks": 12
+    },
+    "B/uniform": {
+      "mode_week": 35,
+      "hdi": [
+        23,
+        35
+      ],
+      "width_weeks": 12
+    }
+  },
+  "family_II": {
+    "mode_week": 29,
+    "hdi": [
+      24,
+      33
+    ],
+    "width_weeks": 9,
+    "slopes": [
+      -0.024659308154533408,
+      0.0528527301528943
+    ]
+  },
+  "china_short": {
+    "n": 9,
+    "mode_week": 36,
+    "hdi": [
+      30,
+      36
+    ],
+    "width_weeks": 6
+  }
+}
