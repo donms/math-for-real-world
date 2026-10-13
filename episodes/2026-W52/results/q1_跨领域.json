@@ -1,0 +1,179 @@
+{
+  "n_mod": 86507,
+  "n_disc": 17,
+  "n_fam": 427,
+  "edges": {
+    "same": 203291,
+    "cross": 909,
+    "total": 204200,
+    "cross_pct": 0.45
+  },
+  "fam_disc_dist": {
+    "0": 381,
+    "1": 34,
+    "2": 11,
+    "3": 1
+  },
+  "fam_mono": 381,
+  "fam_cross": 46,
+  "fam_ge2": 12,
+  "top_cross_pairs": [
+    [
+      "Combinatorics",
+      "Geometry",
+      270
+    ],
+    [
+      "Dynamics",
+      "Geometry",
+      158
+    ],
+    [
+      "Analysis",
+      "Geometry",
+      141
+    ],
+    [
+      "Computability",
+      "MathematicalPhysics",
+      85
+    ],
+    [
+      "Analysis",
+      "InformationTheory",
+      61
+    ],
+    [
+      "Analysis",
+      "MathematicalPhysics",
+      56
+    ],
+    [
+      "Analysis",
+      "Combinatorics",
+      39
+    ],
+    [
+      "Computability",
+      "GroupTheory",
+      35
+    ],
+    [
+      "Combinatorics",
+      "GroupTheory",
+      11
+    ],
+    [
+      "AlgebraicTopology",
+      "Geometry",
+      9
+    ],
+    [
+      "Geometry",
+      "MathematicalPhysics",
+      9
+    ],
+    [
+      "Analysis",
+      "MeasureTheory",
+      7
+    ],
+    [
+      "Combinatorics",
+      "Computability",
+      5
+    ],
+    [
+      "Geometry",
+      "GroupTheory",
+      5
+    ],
+    [
+      "AlgebraicTopology",
+      "GroupTheory",
+      4
+    ],
+    [
+      "InformationTheory",
+      "MathematicalPhysics",
+      4
+    ],
+    [
+      "Computability",
+      "Geometry",
+      3
+    ],
+    [
+      "Analysis",
+      "Computability",
+      2
+    ],
+    [
+      "Combinatorics",
+      "InformationTheory",
+      2
+    ],
+    [
+      "Algebra",
+      "Analysis",
+      1
+    ],
+    [
+      "Analysis",
+      "LinearAlgebra",
+      1
+    ],
+    [
+      "CategoryTheory",
+      "LinearAlgebra",
+      1
+    ]
+  ],
+  "disc_out": {
+    "AlgebraicTopology": 9,
+    "Analysis": 31,
+    "CategoryTheory": 1,
+    "Combinatorics": 309,
+    "Computability": 7,
+    "Dynamics": 126,
+    "Geometry": 167,
+    "GroupTheory": 41,
+    "InformationTheory": 63,
+    "MathematicalPhysics": 152,
+    "MeasureTheory": 3
+  },
+  "disc_in": {
+    "GroupTheory": 14,
+    "Geometry": 428,
+    "Algebra": 1,
+    "InformationTheory": 4,
+    "MeasureTheory": 4,
+    "LinearAlgebra": 2,
+    "Computability": 123,
+    "Analysis": 277,
+    "Combinatorics": 18,
+    "AlgebraicTopology": 4,
+    "Dynamics": 32,
+    "MathematicalPhysics": 2
+  },
+  "discs": [
+    "Algebra",
+    "AlgebraicGeometry",
+    "AlgebraicTopology",
+    "Analysis",
+    "CategoryTheory",
+    "Combinatorics",
+    "Computability",
+    "Dynamics",
+    "GameTheory",
+    "Geometry",
+    "GroupTheory",
+    "InformationTheory",
+    "LinearAlgebra",
+    "MathematicalPhysics",
+    "MeasureTheory",
+    "ModelTheory",
+    "NumberTheory"
+  ],
+  "_口径": "族级 = 借用了几个**别的**学科（键 = 学科.族）；0 个为 fam_mono，>=1 个为 fam_cross，>=2 个为 fam_ge2"
+}

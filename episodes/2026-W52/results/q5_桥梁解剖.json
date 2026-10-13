@@ -1,0 +1,373 @@
+{
+  "n_cross": 903,
+  "layers": {
+    "specific": 629,
+    "generic": 274
+  },
+  "top_targets": [
+    [
+      "OAI.Geometry.NilpotentCharts.Main",
+      258
+    ],
+    [
+      "OAI.Analysis.RCDHeat.ExistingAnalytic",
+      49
+    ],
+    [
+      "OAI.Analysis.RCDHeat.Foundations",
+      12
+    ],
+    [
+      "OAI.Computability.QuantumFactoring.BitStackListMapWith",
+      11
+    ],
+    [
+      "OAI.Computability.FiniteCompiler.Quotients",
+      7
+    ],
+    [
+      "OAI.Computability.QuantumFactoring.BitStackListIndex",
+      7
+    ],
+    [
+      "OAI.Analysis.MatrixSigning.Realization.FaceQueryRealization",
+      6
+    ],
+    [
+      "OAI.Analysis.RCDHeat.SobolevTestPlan",
+      6
+    ],
+    [
+      "OAI.Analysis.RCDHeat.DynamicalPlan",
+      6
+    ],
+    [
+      "OAI.Computability.QuantumFactoring.BitStackListFold",
+      6
+    ],
+    [
+      "OAI.Analysis.RCDHeat.CompressionIntegral",
+      5
+    ],
+    [
+      "OAI.Computability.FiniteCompiler.Selectors",
+      5
+    ],
+    [
+      "OAI.Computability.QuantumFactoring.BitStackTabulate",
+      5
+    ],
+    [
+      "OAI.Analysis.RCDHeat.HeatFisher",
+      4
+    ],
+    [
+      "OAI.Dynamics.EntropyCounterexample.FiniteSpectrumBound",
+      4
+    ],
+    [
+      "OAI.Dynamics.EntropyCounterexample.Definitions",
+      4
+    ],
+    [
+      "OAI.Computability.FiniteCompiler.Effectivity",
+      4
+    ],
+    [
+      "OAI.Analysis.Quantum.PPTSquare.ChannelModel",
+      4
+    ],
+    [
+      "OAI.Analysis.Quantum.PPTSquare.Compression",
+      4
+    ],
+    [
+      "OAI.Computability.QuantumFactoring.BitStackRationalDivision",
+      4
+    ],
+    [
+      "OAI.Computability.QuantumFactoring.BitStackListOps",
+      4
+    ],
+    [
+      "OAI.Computability.QuantumFactoring.BitStackBoundedUnary",
+      4
+    ],
+    [
+      "OAI.Geometry.Cannon.Beltrami.TwoPointNormalize",
+      3
+    ],
+    [
+      "OAI.Computability.SolenoidalRecorder.Machines",
+      3
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.Coordinates",
+      3
+    ],
+    [
+      "OAI.Analysis.MatrixSigning.Complexity.PolynomialExplicit",
+      3
+    ],
+    [
+      "OAI.Analysis.MatrixSigning.Complexity.PolynomialMatrixFold",
+      3
+    ],
+    [
+      "OAI.Geometry.SingularHomology.FiniteCoverHomologyRawBase",
+      3
+    ],
+    [
+      "OAI.Geometry.SingularHomology.HomologyConjugacy",
+      3
+    ],
+    [
+      "OAI.Geometry.SingularHomology.HomologyNaturality",
+      3
+    ],
+    [
+      "OAI.Geometry.SingularHomology.HomologySpectrumFactor",
+      3
+    ],
+    [
+      "OAI.Geometry.SingularHomology.MapRealizedHomology",
+      3
+    ],
+    [
+      "OAI.Geometry.SingularHomology.SingularSmallComparison",
+      3
+    ],
+    [
+      "OAI.Geometry.SingularHomology.SphereSquareHomologyTransport",
+      3
+    ],
+    [
+      "OAI.Analysis.RCDHeat.WeightedGradientConvex",
+      3
+    ],
+    [
+      "OAI.Analysis.RecorderRadix.Scales",
+      3
+    ],
+    [
+      "OAI.Analysis.RecorderRadix.Tape",
+      3
+    ],
+    [
+      "OAI.Dynamics.EntropyCounterexample.SpectralRadius",
+      3
+    ],
+    [
+      "OAI.Computability.FiniteCompiler.SelfReference",
+      3
+    ],
+    [
+      "OAI.Analysis.Quantum.PPTSquare.TensorPositivity",
+      3
+    ]
+  ],
+  "top_fams": [
+    [
+      "Geometry/NilpotentCharts",
+      263
+    ],
+    [
+      "Geometry/SingularHomology",
+      126
+    ],
+    [
+      "Analysis/RCDHeat",
+      107
+    ],
+    [
+      "Computability/QuantumFactoring",
+      70
+    ],
+    [
+      "Analysis/Quantum",
+      55
+    ],
+    [
+      "Analysis/MatrixSigning",
+      38
+    ],
+    [
+      "Dynamics/EntropyCounterexample",
+      32
+    ],
+    [
+      "Computability/FiniteCompiler",
+      32
+    ],
+    [
+      "Analysis/CoulombRadii",
+      30
+    ],
+    [
+      "Geometry/Cannon",
+      11
+    ],
+    [
+      "Computability/SolenoidalRecorder",
+      10
+    ],
+    [
+      "Geometry/ComplexBundle",
+      9
+    ],
+    [
+      "Computability/Interspersed",
+      9
+    ],
+    [
+      "Geometry/RecorderBoxes",
+      9
+    ],
+    [
+      "GroupTheory/Congruence",
+      8
+    ],
+    [
+      "Analysis/RecorderRadix",
+      8
+    ],
+    [
+      "Combinatorics/PerfectMatching",
+      5
+    ],
+    [
+      "Analysis/MatrixScaling",
+      5
+    ],
+    [
+      "Analysis/PlaneSpectrum",
+      5
+    ],
+    [
+      "Analysis/Laughlin",
+      5
+    ],
+    [
+      "Geometry/BundleTests",
+      4
+    ],
+    [
+      "Combinatorics/Coboundary",
+      4
+    ],
+    [
+      "Analysis/BiholderTransport",
+      4
+    ],
+    [
+      "Analysis/PeriodicLattice",
+      4
+    ],
+    [
+      "Analysis/PrefixRadix",
+      4
+    ],
+    [
+      "InformationTheory/PhotonNumber",
+      3
+    ],
+    [
+      "MeasureTheory/CompactFactors",
+      3
+    ],
+    [
+      "GroupTheory/BooneHigman",
+      3
+    ],
+    [
+      "AlgebraicTopology/IntegralHomology",
+      3
+    ],
+    [
+      "GroupTheory/RightAngledArtin",
+      2
+    ]
+  ],
+  "samples": [
+    {
+      "from": "OAI.MathematicalPhysics.ContinuumCoulomb.ManyBody.RepulsionCross",
+      "to": "OAI.Analysis.CoulombRadii.FieldAnalysis.ConfigurationMeasurableEquiv",
+      "d1": "MathematicalPhysics",
+      "d2": "Analysis",
+      "f1": "ContinuumCoulomb",
+      "f2": "CoulombRadii"
+    },
+    {
+      "from": "OAI.Dynamics.EntropyCounterexample",
+      "to": "OAI.Geometry.SingularHomology.SingularSubdivisionIterateRealization",
+      "d1": "Dynamics",
+      "d2": "Geometry",
+      "f1": "EntropyCounterexample",
+      "f2": "SingularHomology"
+    },
+    {
+      "from": "OAI.MathematicalPhysics.ContinuumCoulomb.OneParticle.CoreTensorFiber",
+      "to": "OAI.Analysis.CoulombRadii.FieldAnalysis.SpinConfigurationIntegral",
+      "d1": "MathematicalPhysics",
+      "d2": "Analysis",
+      "f1": "ContinuumCoulomb",
+      "f2": "CoulombRadii"
+    },
+    {
+      "from": "OAI.Dynamics.EntropyCounterexample",
+      "to": "OAI.Geometry.SingularHomology.SingularSubdivisionEventuallySmall",
+      "d1": "Dynamics",
+      "d2": "Geometry",
+      "f1": "EntropyCounterexample",
+      "f2": "SingularHomology"
+    },
+    {
+      "from": "OAI.Dynamics.EntropyCounterexample.Assembly",
+      "to": "OAI.Geometry.SingularHomology.SingularSubdivisionEventuallySmall",
+      "d1": "Dynamics",
+      "d2": "Geometry",
+      "f1": "EntropyCounterexample",
+      "f2": "SingularHomology"
+    },
+    {
+      "from": "OAI.Combinatorics.ThinTrees.RationalMatrix.SchurHistory",
+      "to": "OAI.Analysis.MatrixSigning.Complexity.PolynomialIterateFamilies",
+      "d1": "Combinatorics",
+      "d2": "Analysis",
+      "f1": "ThinTrees",
+      "f2": "MatrixSigning"
+    },
+    {
+      "from": "OAI.Combinatorics.ThinTrees.Signing.Realization",
+      "to": "OAI.Analysis.MatrixSigning.Complexity.PolynomialOriginalSigning",
+      "d1": "Combinatorics",
+      "d2": "Analysis",
+      "f1": "ThinTrees",
+      "f2": "MatrixSigning"
+    },
+    {
+      "from": "OAI.MathematicalPhysics.ContinuumCoulomb.OneParticle.MixedSlater",
+      "to": "OAI.Analysis.CoulombRadii.FieldAnalysis.TwoBodyTensorIntegrable",
+      "d1": "MathematicalPhysics",
+      "d2": "Analysis",
+      "f1": "ContinuumCoulomb",
+      "f2": "CoulombRadii"
+    },
+    {
+      "from": "OAI.Combinatorics.ThinTrees.Pencil.FiniteFamilies",
+      "to": "OAI.Analysis.MatrixSigning.Complexity.PolynomialBranchFamilies",
+      "d1": "Combinatorics",
+      "d2": "Analysis",
+      "f1": "ThinTrees",
+      "f2": "MatrixSigning"
+    },
+    {
+      "from": "OAI.Dynamics.EntropyCounterexample",
+      "to": "OAI.Geometry.SingularHomology.SingularCoverNaturalityExtended",
+      "d1": "Dynamics",
+      "d2": "Geometry",
+      "f1": "EntropyCounterexample",
+      "f2": "SingularHomology"
+    }
+  ]
+}

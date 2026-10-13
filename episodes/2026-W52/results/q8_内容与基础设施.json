@@ -1,0 +1,624 @@
+{
+  "n_cross": 317,
+  "n_infra": 16,
+  "n_content": 301,
+  "infra": [
+    {
+      "m": "OAI.Geometry.ComplexBundle.Tuples",
+      "users": 3,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Computability.Interspersed.Stacks",
+      "users": 3,
+      "discs": [
+        "Analysis",
+        "Computability",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.RecorderRadix.Tape",
+      "users": 3,
+      "discs": [
+        "Analysis",
+        "Geometry",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Computability.SolenoidalRecorder.Machines",
+      "users": 3,
+      "discs": [
+        "Analysis",
+        "Computability",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.GroupTheory.Congruence.Basic",
+      "users": 3,
+      "discs": [
+        "Combinatorics",
+        "Geometry",
+        "GroupTheory"
+      ]
+    },
+    {
+      "m": "OAI.Combinatorics.PerfectMatching.Model",
+      "users": 3,
+      "discs": [
+        "Combinatorics",
+        "Computability"
+      ]
+    },
+    {
+      "m": "OAI.GroupTheory.BooneHigman.Basic",
+      "users": 3,
+      "discs": [
+        "Computability",
+        "GroupTheory"
+      ]
+    },
+    {
+      "m": "OAI.Computability.SolenoidalRecorder.Checkpoints",
+      "users": 3,
+      "discs": [
+        "Computability",
+        "Geometry",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Computability.SolenoidalRecorder.Rules",
+      "users": 3,
+      "discs": [
+        "Computability",
+        "Geometry",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.PeriodicLattice.Basic",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.PlaneSpectrum.Basic",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MeasureTheory"
+      ]
+    },
+    {
+      "m": "OAI.Combinatorics.GotsmanLinial.Model",
+      "users": 2,
+      "discs": [
+        "Combinatorics",
+        "InformationTheory"
+      ]
+    },
+    {
+      "m": "OAI.Computability.Interspersed.Rules",
+      "users": 2,
+      "discs": [
+        "Computability",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Computability.Interspersed.Machines",
+      "users": 2,
+      "discs": [
+        "Computability",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.RecorderBoxes.Encoding",
+      "users": 2,
+      "discs": [
+        "Geometry",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.RecorderBoxes.Bounds",
+      "users": 2,
+      "discs": [
+        "Geometry",
+        "MathematicalPhysics"
+      ]
+    }
+  ],
+  "content_top": [
+    {
+      "m": "OAI.Geometry.ComplexBundle.Orthonormal",
+      "users": 3,
+      "discs": [
+        "AlgebraicTopology",
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.ComplexBundle.LineStage",
+      "users": 3,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.Quantum.PPTSquare.TensorPositivity",
+      "users": 3,
+      "discs": [
+        "Analysis",
+        "InformationTheory"
+      ]
+    },
+    {
+      "m": "OAI.GroupTheory.BooneHigman.WordProblem",
+      "users": 3,
+      "discs": [
+        "Computability",
+        "GroupTheory"
+      ]
+    },
+    {
+      "m": "OAI.AlgebraicTopology.Cubical.PathChains",
+      "users": 2,
+      "discs": [
+        "AlgebraicTopology",
+        "GroupTheory"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.ComplexBundle.Tensor",
+      "users": 2,
+      "discs": [
+        "AlgebraicTopology",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.AlgebraicTopology.IntegralHomology.GraphNormalization",
+      "users": 2,
+      "discs": [
+        "AlgebraicTopology",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.ComplexBundle.GrassmannManifold",
+      "users": 2,
+      "discs": [
+        "AlgebraicTopology",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.ComplexBundle.Sections",
+      "users": 2,
+      "discs": [
+        "AlgebraicTopology",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.AffineBernstein.LocalMaximumSecond",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.BiholderTransport.Calculus.ImplicitNeighborhood",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.BiholderTransport.Calculus.PathCalculus",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.BiholderTransport.Regularity.UnitTime",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.BiholderTransport.LocalFlow.SmoothFlowEndpoint",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.Cannon.Beltrami.TwoPointNormalize",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.Cannon.Beltrami.MultiplyLp",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.Cannon.Beltrami.Mollifier",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.Cannon.Beltrami.ContinuousMemLpRestrict",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.Cannon.Beltrami.DirichletPullback",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.Cannon.Topology.CenteredHomeomorph",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.Cannon.Beltrami.CauchySymbol",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Geometry.Cannon.Conformal.Sphere",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FormDomain.CubeGradient",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FormDomain.Pullback",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FormDomain.HardyMollifier",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FieldAnalysis.FermionicCoefficients",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FormDomain.Add",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FormDomain.OrbitalHilbertBasis",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.Packets.CoulombKernel",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FieldAnalysis.SpinConfigurationIntegral",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FieldAnalysis.Space",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FieldAnalysis.TsumFixed",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.Localization.TruncatedCoulomb",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FormDomain.CoreKinetic",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FormDomain.HilbertBasisContaining",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FieldAnalysis.HighProjection",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FormDomain.SmoothCompact",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FieldAnalysis.SlotTensor",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FieldAnalysis.ConfigurationMeasurableEquiv",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.Variational.CorrectionDensity",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FieldAnalysis.PairRegroup",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FieldAnalysis.TwoBodyTensorIntegrable",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FieldAnalysis.WedgeMultiplicity",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.CoulombRadii.FieldAnalysis.CoulombTest",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.KLS.Convexity.PrekopaLeindler",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Combinatorics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.Laughlin.Operators.NormalOrder",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.Laughlin.Tensor.PairContraction",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.Laughlin.Tensor.Antisymmetry",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.Laughlin.Tensor.ExteriorAdjoint",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.Laughlin.Tensor.ExteriorIsometry",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.MatrixScaling.Spectrum",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.MatrixScaling.Continuous",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.MatrixScaling.Canonical",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.MatrixSigning.Optimization.Coordinates",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Combinatorics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.MatrixSigning.Complexity.PolynomialRoots",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Combinatorics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.MatrixSigning.Complexity.PolynomialFind",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Combinatorics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.MatrixSigning.Realization.FaceQueryRealization",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Combinatorics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.MatrixSigning.Complexity.PolynomialCurvature",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Combinatorics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.MatrixSigning.Complexity.PolynomialOptimize",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Combinatorics"
+      ]
+    },
+    {
+      "m": "OAI.Analysis.MatrixSigning.Complexity.PolynomialFaceChoice",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Combinatorics"
+      ]
+    }
+  ]
+}

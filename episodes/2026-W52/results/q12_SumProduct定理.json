@@ -1,0 +1,92 @@
+[
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.ComparableBox02",
+    "name": "integerCoord_exists",
+    "stmt": "lemma integerCoord_exists (lo hi : ℝ) (z : ℤ) (hlo : lo≤(z:ℝ)) (hhi : (z:ℝ)≤hi) : ∃ k : Fin (integerLength lo hi),⌈lo⌉+(k.val:ℤ)=z "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.ComparableBox01",
+    "name": "rectMean_exists_norm_ge",
+    "stmt": "lemma rectMean_exists_norm_ge (n : ℕ) {L : Fin n→ℕ} (hL : ∀ i,0<L i) (f : (Fin n→ℕ)→ℂ) : ∃ x : Fin n→ℕ, (∀ i,x i<L i) ∧ ‖rectMean n L f‖≤‖f x‖ "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.CompactConvex01",
+    "name": "exists_fixed",
+    "stmt": "theorem exists_fixed (T : E →L[ℝ] E) {C : Set E} (hk : IsCompact C) (hc : Convex ℝ C) (hne : C.Nonempty) (hT : MapsTo T C C) : ∃ x ∈ C, T x = x "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.AllLevel12",
+    "name": "exists_adapted_weights",
+    "stmt": "theorem exists_adapted_weights : ∃ w : Fin n → ℕ,Monotone w ∧ (∀ i,0<w i) ∧ (∀ i,w i ≤ s) ∧ ∀ k (x : G),x∈H.level k ↔ ∀ i : Fin n,w i<k → c.coord x i=0 "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.BoxPolynomial01",
+    "name": "exists_norm_ge",
+    "stmt": "theorem exists_norm_ge (n : ℕ) {N : ℕ} (hN : 0 < N) (f : (Fin n → ℕ) → ℂ) {δ : ℝ} (hδ : δ ≤ ‖boxMean n N f‖) : ∃ x : Fin n → ℕ, (∀ i, x i < N) ∧ δ ≤ ‖f x‖ "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.CorrectedBox01",
+    "name": "exists_grid_expansion",
+    "stmt": "theorem exists_grid_expansion (v s : ℕ) (f : (Fin v→ℤ)→ℝ) (hf : LinePolynomial v s f) : ∃ a : Grid v s→ℝ, ∀ x : Fin v→ℤ, gridEval a (fun i => (x i:ℝ))=f x "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.AffineOrbit01",
+    "name": "exists_affine_restriction",
+    "stmt": "theorem exists_affine_restriction : ∃ a : J,∃ φ : J →* J,Continuous φ ∧ ∀ y : J,(QuotientGroup.mk (S (h*(y:G)*σ)) : G⧸Λ)= QuotientGroup.mk (h*((a*φ y : J):G)*σ) "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.Blocks01",
+    "name": "added_exists_iff",
+    "stmt": "lemma added_exists_iff (B : Block a) (A : Finset (Fin a)) : (∃ e : Fin (pivot B.1).pairs, (pivot B.1).owner e = B.target ∧ (pivot B.1).added e = A) ↔ Added B.1 B.2.val A "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.BooleanBinomial01",
+    "name": "exists_maximalFace",
+    "stmt": "theorem exists_maximalFace (H : Filtration G) (I : Finset ι) (h01 : H.level 0 = H.level 1) (s : ℕ) (hs : H.level (s+1) = ⊥) (χ : cube H I 0 →* A) (hne : χ ≠ 1) : Nonempty (MaximalFace H I χ) "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.BooleanRough02",
+    "name": "exists_boolean_coefficients",
+    "stmt": "theorem exists_boolean_coefficients [CommRing K] (p : MvPolynomial α K) : ∃ f : Finset α → K, DegreeLE p.totalDegree f ∧ ∀ S, Eval f S = MvPolynomial.eval (fun i => if i ∈ S then 1 else 0) p "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.AllLevel13",
+    "name": "actual_point_law_exists",
+    "stmt": "theorem actual_point_law_exists : ∃ F : Factorization c B.small s K P L, Tendsto (fun N=>ProbabilityMixtures.empirical ⌊L (F.state.subseq N)⌋₊ (fun k=>(QuotientGroup.mk (P (F.state.subseq N) (k:ℤ)) : G⧸Γ))) atTop (𝓝 (actualPointMixture c Γ B F)) "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.CentralFiber01",
+    "name": "exists_average_descend",
+    "stmt": "theorem exists_average_descend (ν : Measure K) [IsProbabilityMeasure ν] [Measure.IsMulRightInvariant ν] (p : C(X,Y)) (hp : Function.Surjective p) (hfib : ∀ x z, p x = p z → ∃ k : K, k • x = z) (f : C(X,ℝ)) : ∃ F : C(Y,ℝ), ∀ x, F (p x) = average ν f x "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.Blocks02",
+    "name": "menu_alignment_eventually",
+    "stmt": "theorem menu_alignment_eventually (s r : ℕ) (hs : 1 ≤ s) (A : Parameters a) (F : Menu s) (S : System A (values (a:=a) s r hs) r F) (τ : ℝ) (hτ : 0 < τ) (ε : ℝ) (hε : 0 < ε) : ∀ᶠ N in atTop, ∃ hX : ∀ i, 4*primorial (N+1) ≤ A.X N i, delta s r hs (pivots a) ≤ (A.law N hX).real (event (tuples s r hs) (S.model N) (A.ht N) τ) + ε "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.CoordinateSubspace01",
+    "name": "existsUnique_invariant",
+    "stmt": "theorem existsUnique_invariant (n : ℕ) (Γ : Subgroup G) (H : ℕ → Subgroup G) (h0 : H 0 = ⊤) (hn : H n = ⊥) (hc : ∀ i (g x : G), x ∈ H i → ⁅g,x⁆ ∈ H (i+1)) (hr : ∀ i, CompactGroupProducts.HasCompactReps (H i) Γ) (hΓ : IsDiscrete (Γ : Set G)) [MeasurableSpace (G ⧸ Γ)] [BorelSpace (G ⧸ Γ)] : ∃! μ : ProbabilityMeasure (G ⧸ Γ), SMulInvariantMeasure G (G ⧸ Γ) (μ : Measure (G ⧸ Γ)) "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.AllLevel03",
+    "name": "exists_refinement",
+    "stmt": "theorem exists_refinement (hcont : Continuous χ) (hz : ∀ x : D.filtration.level j,x.val∈D.lattice → ∃ z : ℤ,(χ x).toAdd=z) (hne : χ≠1) : ∃ E : Domain c Γ s,∃ J : E.Carrier →* D.Carrier, Continuous J ∧ Function.Injective J ∧ (∀ x,E.embed x=D.embed (J x)) ∧ J.range=(refinedFiltration D j hj χ hnext hbr).level 1 ∧ (∀ k (x : E.Carrier),x∈E.filtration.level k ↔ J x∈(refinedFiltration D j hj χ hnext hbr).level k) ∧ E.rank<D.rank "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.Admissible01",
+    "name": "admissible_charted_alignment",
+    "stmt": "theorem admissible_charted_alignment (s r : ℕ) (hs : 1 ≤ s) : 0 < delta s r hs (pivots a) ∧ (∀ b ∈ multipliers (sourcePlan s r hs (pivots a)), ∀ j, 0 < b j) ∧ ∀ (A : Parameters a) (Ss : ℕ → (D : Pivot a) → ScalarModels D r), (∀ D ∈ pivots a, ∃ F : ChartedModels s r D, ∀ N, Ss N D = A.models F N) → ∀ τ : ℝ, 0 < τ → ∀ ε : ℝ, 0 < ε → ∀ᶠ N in atTop, ∃ hX : ∀ i, 4*primorial (N+1) ≤ A.X N i, delta s r hs (pivots a) ≤ (A.law N hX).real {u | ∃ b ∈ multipliers (sourcePlan s r hs (pivots a)), ∀ D ∈ pivots a, comparison D r (Ss N D) (A.ht N) b u (u D.index) τ} + ε "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.CubeFaces02",
+    "name": "existsUnique_cubeHaar",
+    "stmt": "theorem existsUnique_cubeHaar (H : Filtration G) (h01 : H.level 0=H.level 1) (s : ℕ) (hs : H.level (s+1)=⊥) (Γ : Subgroup G) (hr : ∀ j,HasCompactReps (H.level j) Γ) (hΓ : IsDiscrete (Γ:Set G)) [MeasurableSpace ((cube H (Finset.univ : Finset ι) 0)⧸cubeLattice H Γ)] [BorelSpace ((cube H (Finset.univ : Finset ι) 0)⧸cubeLattice H Γ)] : ∃! μ : ProbabilityMeasure ((cube H (Finset.univ : Finset ι) 0)⧸cubeLattice H Γ), SMulInvariantMeasure (cube H (Finset.univ : Finset ι) 0) ((cube H (Finset.univ : Finset ι) 0)⧸cubeLattice H Γ) (μ : Measure ((cube H (Finset.univ : Finset ι) 0)⧸cubeLattice H Γ)) "
+  },
+  {
+    "module": "OAI.Combinatorics.SumProduct.Alignment.AllLevel01",
+    "name": "exists_refined_integer_cover",
+    "stmt": "theorem exists_refined_integer_cover (hsk : SecondKind c) (Γ : Subgroup G) (hΓ : ∀ g : G,g∈Γ ↔ ∀ i,∃ z : ℤ,c.coord g i=z) (χ : H →* Multiplicative ℝ) (hcont : Continuous χ) (hz : ∀ x : H,x.val∈Γ → ∃ z : ℤ,(χ x).toAdd=z) (hne : χ≠1) (hconj : ∀ (g : G) (x : H),g⁻¹*x.val*g∈H) (hχconj : ∀ (g : G) (x : H),χ ⟨g⁻¹*x.val*g,hconj g x⟩=χ x) : ∃ Λ : Subgroup G,∃ e : RealCoordinates G (r+(n+1)),SecondKind e ∧ (∀ g : G,g∈Λ ↔ ∀ i,∃ z : ℤ,e.coord g i=z) ∧ Λ≤Γ ∧ (Λ.subgroupOf Γ).FiniteIndex ∧ (∀ g : G,IsRational e g → IsRational c g) ∧ (∀ g : G,g∈χ.ker.map H.subtype ↔ ∀ i : Fin (r+(n+1)),i.val<r+1 → e.coord g i=0) ∧ (∀ K : Subgroup G,∀ s : ℕ,s≤r → (∀ g : G,g∈K ↔ ∀ i : Fin (r+(n+1)),i.val<s → c.coord g i=0) "
+  }
+]

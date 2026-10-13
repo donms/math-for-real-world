@@ -1,0 +1,49 @@
+{
+  "模块数": 86924,
+  "原始边数": 248871,
+  "tarball_lean总数": 147850,
+  "覆盖率pct": 58.79,
+  "读取MB": 2352.6,
+  "最后错误": "TimeoutError: The read operation timed out",
+  "边分类": {
+    "内部": 204939,
+    "外部": 43620,
+    "悬空": 312,
+    "自环": 0
+  },
+  "外部依赖构成": {
+    "Mathlib": 43383,
+    "Lean": 214,
+    "Std": 22,
+    "Init": 1
+  },
+  "是DAG": true,
+  "拓扑访问": "86924/86924",
+  "领域分布": {
+    "Analysis": 26567,
+    "Combinatorics": 16614,
+    "Geometry": 14057,
+    "MathematicalPhysics": 6736,
+    "Computability": 5213,
+    "NumberTheory": 4463,
+    "GroupTheory": 4192,
+    "MeasureTheory": 2950,
+    "Algebra": 2081,
+    "AlgebraicGeometry": 975,
+    "LinearAlgebra": 954,
+    "Dynamics": 664,
+    "(非OAI)": 417,
+    "InformationTheory": 339,
+    "CategoryTheory": 312,
+    "GameTheory": 303,
+    "AlgebraicTopology": 45,
+    "ModelTheory": 42
+  },
+  "唯一游戏模块数": 479,
+  "_自查": [
+    "覆盖率不完整 => 规模类结论只能报『下限』",
+    "模块命名口径：脚本产 `lean.OAI.x`，Lean 内部写 `OAI.x`，差一个前缀",
+    "外部依赖(Mathlib)是图外节点，不参与内部结构分析",
+    "DAG 性若失败说明解析错（把注释/字符串里的 import 抓了）"
+  ]
+}

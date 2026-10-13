@@ -1,0 +1,110 @@
+{
+  "n_mods": 25,
+  "subfamilies": {
+    "Adjoint": 1,
+    "AdjointPolynomials": 1,
+    "AxesDerivatives": 1,
+    "CentralAxes": 1,
+    "CentralSubspaces": 1,
+    "CentralWords": 1,
+    "CompactGroups": 1,
+    "Coordinates": 1,
+    "Exponential": 1,
+    "FilteredBasis": 1,
+    "Filtrations": 1,
+    "Flows": 1,
+    "GlobalAxes": 1,
+    "LatticeAxes": 1,
+    "LatticeQuotients": 1,
+    "LinearLattices": 1,
+    "Main": 1,
+    "Polynomials": 1,
+    "QuotientCharts": 1,
+    "QuotientLie": 1,
+    "QuotientTopology": 1,
+    "RationalCoordinates": 1,
+    "SmoothCalculus": 1,
+    "SubspaceQuotients": 1,
+    "TriangularBasis": 1
+  },
+  "ext_users": {
+    "Combinatorics.SumProduct": 263
+  },
+  "indeg_top": [
+    [
+      "OAI.Geometry.NilpotentCharts.SmoothCalculus",
+      3,
+      0
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.CentralAxes",
+      2,
+      1
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.LinearLattices",
+      2,
+      0
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.Polynomials",
+      2,
+      0
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.Coordinates",
+      2,
+      1
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.QuotientCharts",
+      2,
+      4
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.AdjointPolynomials",
+      1,
+      4
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.Flows",
+      1,
+      1
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.CentralWords",
+      1,
+      2
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.RationalCoordinates",
+      1,
+      3
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.CompactGroups",
+      1,
+      0
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.GlobalAxes",
+      1,
+      1
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.CentralSubspaces",
+      1,
+      2
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.Filtrations",
+      1,
+      0
+    ],
+    [
+      "OAI.Geometry.NilpotentCharts.SubspaceQuotients",
+      1,
+      1
+    ]
+  ]
+}

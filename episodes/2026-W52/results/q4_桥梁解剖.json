@@ -1,0 +1,38 @@
+{
+  "cats": {
+    "同科同族": 200628,
+    "同科跨族": 2663,
+    "跨科跨族": 903,
+    "跨科同族": 6
+  },
+  "total": 204200,
+  "cross": 909,
+  "cross_fam": 903,
+  "pair_counts": {
+    "AlgebraicTopology|GroupTheory": 4,
+    "AlgebraicTopology|Geometry": 9,
+    "Analysis|Geometry": 141,
+    "Algebra|Analysis": 1,
+    "Analysis|InformationTheory": 61,
+    "Analysis|MeasureTheory": 7,
+    "Analysis|LinearAlgebra": 1,
+    "Analysis|Computability": 2,
+    "CategoryTheory|LinearAlgebra": 1,
+    "Combinatorics|GroupTheory": 11,
+    "Analysis|Combinatorics": 39,
+    "Combinatorics|Computability": 5,
+    "Combinatorics|Geometry": 264,
+    "Computability|GroupTheory": 35,
+    "Dynamics|Geometry": 158,
+    "Geometry|GroupTheory": 5,
+    "Computability|Geometry": 3,
+    "Combinatorics|InformationTheory": 2,
+    "InformationTheory|MathematicalPhysics": 4,
+    "Analysis|MathematicalPhysics": 56,
+    "Computability|MathematicalPhysics": 85,
+    "Geometry|MathematicalPhysics": 9
+  },
+  "mutual_pairs": 12,
+  "fam_dep_edges": 3566,
+  "fam_dep_pairs": 194
+}

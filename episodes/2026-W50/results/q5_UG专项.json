@@ -1,0 +1,179 @@
+{
+  "模块数": 479,
+  "theorem": 10694,
+  "lemma": 7,
+  "theorem_lemma比": 1527.7,
+  "内部边": 1429,
+  "最长依赖链": 50,
+  "拓扑访问": "479/479",
+  "层分布": {
+    "0": 25,
+    "1": 17,
+    "2": 22,
+    "3": 17,
+    "4": 20,
+    "5": 22,
+    "6": 24,
+    "7": 22,
+    "8": 20,
+    "9": 22,
+    "10": 15,
+    "11": 18,
+    "12": 13,
+    "13": 18,
+    "14": 18,
+    "15": 24,
+    "16": 25,
+    "17": 24,
+    "18": 12,
+    "19": 12,
+    "20": 11,
+    "21": 8,
+    "22": 7,
+    "23": 10,
+    "24": 6,
+    "25": 7,
+    "26": 6,
+    "27": 3,
+    "28": 2,
+    "29": 2,
+    "30": 1,
+    "31": 1,
+    "32": 1,
+    "33": 1,
+    "34": 1,
+    "35": 2,
+    "36": 2,
+    "37": 1,
+    "38": 2,
+    "39": 1,
+    "40": 1,
+    "41": 2,
+    "42": 1,
+    "43": 1,
+    "44": 1,
+    "45": 1,
+    "46": 1,
+    "47": 2,
+    "48": 2,
+    "49": 1,
+    "50": 1
+  },
+  "入度": {
+    "中位": 2.0,
+    "均值": 2.9832985386221296,
+    "最大": 38
+  },
+  "承重Top10": [
+    {
+      "模块": "OAI.Computability.UniqueGames.Machines.MachineCompositionLemmas",
+      "入度": 38,
+      "声明数": 68
+    },
+    {
+      "模块": "OAI.Computability.UniqueGames.Machines.MachineSubroutineLemmas",
+      "入度": 34,
+      "声明数": 68
+    },
+    {
+      "模块": "OAI.Computability.UniqueGames.Machines.MachineLemmas",
+      "入度": 24,
+      "声明数": 44
+    },
+    {
+      "模块": "OAI.Computability.UniqueGames.Machines.MachineDrain",
+      "入度": 22,
+      "声明数": 1
+    },
+    {
+      "模块": "OAI.Computability.UniqueGames.Foundations.SamplingLemmas",
+      "入度": 17,
+      "声明数": 50
+    },
+    {
+      "模块": "OAI.Computability.UniqueGames.Machines.MachineCopy",
+      "入度": 17,
+      "声明数": 12
+    },
+    {
+      "模块": "OAI.Computability.UniqueGames.Foundations.ValueLemmas",
+      "入度": 13,
+      "声明数": 20
+    },
+    {
+      "模块": "OAI.Computability.UniqueGames.Reduction.CanonicalBodyTemplateLemmas",
+      "入度": 13,
+      "声明数": 53
+    },
+    {
+      "模块": "OAI.Computability.UniqueGames.Machines.MachineUnaryAffineAt",
+      "入度": 12,
+      "声明数": 15
+    },
+    {
+      "模块": "OAI.Computability.UniqueGames.Reduction.MachineTransfer",
+      "入度": 12,
+      "声明数": 19
+    }
+  ],
+  "命名": {
+    "声明数": 10701,
+    "唯一名": 9309,
+    "段数中位": 2.0,
+    "段数均值": 2.5,
+    "长度中位": 19.0,
+    "长度均值": 19.4,
+    "尾段Top10": {
+      "le": 587,
+      "eq": 304,
+      "iff": 215,
+      "length": 203,
+      "zero": 177,
+      "apply": 144,
+      "injective": 139,
+      "bound": 124,
+      "one": 100,
+      "val": 91
+    },
+    "首段Top10": {
+      "card": 181,
+      "exists": 150,
+      "update": 143,
+      "output": 140,
+      "sum": 77,
+      "finalTapes": 68,
+      "stepAux": 67,
+      "tapes": 66,
+      "mem": 63,
+      "expect": 63
+    }
+  },
+  "子模块": {
+    "Machines": 144,
+    "PCP": 104,
+    "Reduction": 48,
+    "Inverse": 39,
+    "Decoding": 35,
+    "Analysis": 26,
+    "Games": 19,
+    "Quadratic": 18,
+    "Soundness": 13,
+    "Foundations": 11,
+    "Gadgets": 10,
+    "Repetition": 8,
+    "Main": 1,
+    "(其他)": 1,
+    "Model": 1,
+    "Theorem": 1
+  },
+  "_假说检验": {
+    "A_机械生成风格": "段数/尾段高度重复 => 支持（见命名统计）",
+    "B_lemma被theorem替代": "静态文本无法判断，需人工阅读",
+    "C_命名体系不同": "见首段/尾段分布"
+  },
+  "_自查": [
+    "该支数据 100% 完整（479/479），是全库唯一可给完整结论的子结构",
+    "theorem:lemma 比值极端，必须并列给出多种解释而非只挑一个",
+    "假说 B 无法用静态文本检验，如实声明"
+  ]
+}

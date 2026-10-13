@@ -1,0 +1,35 @@
+{
+  "n_mods": 259,
+  "subfamilies": {
+    "Alignment": 259
+  },
+  "ext_libs": {
+    "Mathlib": 258
+  },
+  "oai_targets": {
+    "Combinatorics.SumProduct": 575,
+    "Geometry.NilpotentCharts": 263
+  },
+  "heads": [
+    {
+      "module": "OAI.Combinatorics.SumProduct.Alignment.AllLevel01",
+      "head": "import Mathlib\nimport OAI.Combinatorics.SumProduct.Alignment.RationalLattice10\nimport OAI.Combinatorics.SumProduct.Alignment.TailCharacter01\nimport OAI.Geometry.NilpotentCharts.Main\n\nnamespace OAI\n\nsection\nsection\nsection\nnoncomputable section\nopen scoped BigOperators\nnamespace IntegerHyperplane\nvariable {n : ℕ}\nlemma split_prefix_zero_iff (k : Fin (n+1) → ℤ) (p : Fin (n+1))\n    (hp : k p≠0) (hlast : ∀ j : Fin (n+1),p<j → k j=0)\n    (x : Fin (n+1) → ℝ) (t : ℕ) (hpt : p.val<t) :\n    (∀ j : Fin (n+1),j.val<t → splitCoordinates k p x j=0) ↔\n      ∀ j : Fin (n+1),j.val<t → x j=0 := by\n  have htz : 0<t := by omega\n  have hpR : (k p:ℝ)≠0 := by exact_mod_cast hp\n  have hcut (j : Fin n) : (p.succAbove j).val<t ↔ j.val+1<t := by\n    rw [succAbove_lt_cutoff]\n    simp only [deletedCutoff,ite_eq_left hpt]\n    omega\n  constructor\n  · intro hx j hj\n    have hhead : form k x=0 := by\n      have hh:=hx 0 htz\n      change form k x/(k p:ℝ)=0 at hh\n      exact (div_eq_zero_iff.mp hh).resolve_right hpR\n    have hl:=congrFun (lift_remove k p hp x hhead) j\n    rw [← hl]\n    apply (lift_prefix_zero_iff k p hlast (p.removeNth x) t).mpr\n    · intro a ha\n      have hat : a.val+1<t := by simp only [deletedCutoff,ite_eq_left hpt] at ha; omega\n      exact hx a.succ hat\n    · exact hj\n  · intro hx j hj\n    revert hj\n    refine Fin.cases ?_ (fun a => ?_) j <;> intro hj\n    · change form k x/(k p:ℝ)=0\n      ha",
+      "chars": 20894
+    },
+    {
+      "module": "OAI.Combinatorics.SumProduct.Alignment.Admissible01",
+      "head": "import Mathlib\nimport OAI.Combinatorics.SumProduct.Alignment.Blocks01\nimport OAI.Geometry.NilpotentCharts.Main\n\nnamespace OAI\n\nopen scoped BigOperators\nsection\nnoncomputable section\nopen Filter MeasureTheory\nopen scoped BigOperators ENNReal Topology\nnoncomputable section\nopen scoped BigOperators Topology BoundedContinuousFunction\nnoncomputable section\nopen scoped BigOperators\nopen MeasureTheory Filter Function\nnoncomputable section\nopen scoped BigOperators\nnoncomputable section\nopen Filter MeasureTheory\nopen scoped Topology BoundedContinuousFunction NNReal\nnoncomputable section\nopen scoped Topology BigOperators\nnoncomputable section\nopen scoped Topology BigOperators commutatorElement\nnoncomputable section\nopen scoped Topology BoundedContinuousFunction NNReal\nnoncomputable section\nopen scoped BigOperators\nnoncomputable section\nopen Filter MeasureTheory\nopen scoped Topology BigOperators BoundedContinuousFunction NNReal\nnoncomputable section\nopen Filter MeasureTheory\nopen scoped Topology BigOperators\nnamespace SourceAdmissible\nopen SourceBlocks SourceChartedAlignment MicrocellScale AdmissibleMicrocellBoundary\nopen ConstructedWordPlan.GlobalWordPlan\nopen ConstructedWordPlan.GlobalWordPlan.SourceTerminalArithmetic\nopen SourceIntegerArrays.GlobalJoint.SourceFrozenFamily\nattribute [local instance] Classical.propDecidable\n\n \ndef previous {a : ℕ} (X : Fin a → ℕ) (i : Fin a) : ℕ :=\n  ∏ j",
+      "chars": 10151
+    },
+    {
+      "module": "OAI.Combinatorics.SumProduct.Alignment.AffineOrbit01",
+      "head": "import Mathlib\nimport OAI.Combinatorics.SumProduct.Alignment.RationalLattice25\nimport OAI.Geometry.NilpotentCharts.Main\n\nnamespace OAI\n\nopen scoped BigOperators\nsection\nsection\nnoncomputable section\nopen MeasureTheory Filter Topology\nend\n \nend\n\nsection\n \n\nnoncomputable section\nnamespace ConstructedWordPlan.GlobalWordPlan\nopen AlignmentScales RationalPivotPlan\nvariable {n : ℕ} (s r : ℕ) (hs : 1 ≤ s) (D : Pivot n) (F : Finset (Scale n))\n\n \n\ndef pivotOptions : Finset (Path D) := (uniform_pivot_haar s r hs D F).choose\n\nlemma pivotOptions_nonempty : (pivotOptions s r hs D F).Nonempty :=\n  (uniform_pivot_haar s r hs D F).choose_spec.1\n\nlemma pivotOptions_paths : ∀ p∈pivotOptions s r hs D F,\n    p.length=D.targets ∧ ∀ o∈p,0<o.1 :=\n  (uniform_pivot_haar s r hs D F).choose_spec.2.1\n\ndef pivotModulus (B : Finset (Scale n)) : ℕ :=\n  ((uniform_pivot_haar s r hs D F).choose_spec.2.2 B).choose\n\nlemma pivotModulus_pos (B : Finset (Scale n)) : 0<pivotModulus s r hs D F B :=\n  ((uniform_pivot_haar s r hs D F).choose_spec.2.2 B).choose_spec.1\n\n \nlemma pivotOptions_mass (B : Finset (Scale n)) (q₀ : ℕ)\n    (hq₀ : pivotModulus s r hs D F B∣q₀) (b : Scale n) (hb : b∈B) (τ : ℝ) :\n    ChartedMassAssertion D F (pivotOptions s r hs D F) s r q₀ b τ :=\n  ((uniform_pivot_haar s r hs D F).choose_spec.2.2 B).choose_spec.2 q₀ hq₀ b hb τ\n\nend ConstructedWordPlan.GlobalWordPlan\nend\n \nend\n\nsection\n \n\n \n\nnamespac",
+      "chars": 11464
+    },
+    {
+      "module": "OAI.Combinatorics.SumProduct.Alignment.AbelianMalcev01",
+      "head": "import Mathlib\nimport OAI.Combinatorics.SumProduct.Alignment.FourierObstruction01\nimport OAI.Combinatorics.SumProduct.Alignment.PolynomialDephasing01\nimport OAI.Geometry.NilpotentCharts.Main\n\nnamespace OAI\n\nsection\nsection\nsection\nsection\nnoncomputable section\nend\nend\n \n\n \nsection\n \nnamespace TorusLeibman\nopen scoped BigOperators\nopen PolynomialWeyl WeylCoefficients FourierObstruction MeasureTheory\nnoncomputable section\nvariable {ι : Type*} [Fintype ι]\n\ndef polynomialOrbit (p : ι → Polynomial ℝ) (n : ℕ) : UnitAddTorus ι :=\n  fun i => (((p i).eval (n : ℝ) : ℝ) : UnitAddCircle)\n\ndef characterPolynomial (k : ι → ℤ) (p : ι → Polynomial ℝ) : Polynomial ℝ :=\n  ∑ i, (k i : ℝ) • p i\n\ntheorem characterPolynomial_coeff (k : ι → ℤ) (p : ι → Polynomial ℝ) (j : ℕ) :\n    (characterPolynomial k p).coeff j = ∑ i, (k i : ℝ) * (p i).coeff j := by\n  simp [characterPolynomial]\n\ntheorem characterPolynomial_degree (k : ι → ℤ) (p : ι → Polynomial ℝ) (d : ℕ)\n    (hp : ∀ i, (p i).natDegree ≤ d) : (characterPolynomial k p).natDegree ≤ d := by\n  rw [Polynomial.natDegree_le_iff_coeff_eq_zero]\n  intro j hj\n  rw [characterPolynomial_coeff]\n  apply Finset.sum_eq_zero\n  intro i _\n  rw [Polynomial.coeff_eq_zero_of_natDegree_lt (by exact (hp i).trans_lt hj), mul_zero]\n\ntheorem phase_sum {α : Type*} (s : Finset α) (f : α → ℝ) :\n    phase (∑ a ∈ s, f a) = ∏ a ∈ s, phase (f a) := by\n  classical\n  induction s using",
+      "chars": 10444
+    }
+  ]
+}

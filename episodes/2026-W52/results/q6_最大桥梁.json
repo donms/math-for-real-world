@@ -1,0 +1,7 @@
+{
+  "pair": [
+    "SumProduct",
+    "NilpotentCharts"
+  ],
+  "note": "见控制台输出；用于判断这一对是同一篇论文还是两篇"
+}

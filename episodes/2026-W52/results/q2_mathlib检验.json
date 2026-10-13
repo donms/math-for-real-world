@@ -1,0 +1,426 @@
+{
+  "rows": {
+    "Algebra": {
+      "closure": 2358,
+      "oai": 2081,
+      "ext": 277,
+      "discs": [
+        "Algebra"
+      ],
+      "n_disc": 1
+    },
+    "AlgebraicGeometry": {
+      "closure": 1283,
+      "oai": 975,
+      "ext": 308,
+      "discs": [
+        "AlgebraicGeometry"
+      ],
+      "n_disc": 1
+    },
+    "AlgebraicTopology": {
+      "closure": 289,
+      "oai": 116,
+      "ext": 173,
+      "discs": [
+        "AlgebraicTopology",
+        "Analysis",
+        "Geometry",
+        "GroupTheory"
+      ],
+      "n_disc": 4
+    },
+    "Analysis": {
+      "closure": 28118,
+      "oai": 26959,
+      "ext": 1159,
+      "discs": [
+        "Algebra",
+        "AlgebraicTopology",
+        "Analysis",
+        "Computability",
+        "Geometry",
+        "InformationTheory",
+        "LinearAlgebra",
+        "MeasureTheory"
+      ],
+      "n_disc": 8
+    },
+    "CategoryTheory": {
+      "closure": 473,
+      "oai": 313,
+      "ext": 160,
+      "discs": [
+        "CategoryTheory",
+        "LinearAlgebra"
+      ],
+      "n_disc": 2
+    },
+    "Combinatorics": {
+      "closure": 17986,
+      "oai": 17256,
+      "ext": 730,
+      "discs": [
+        "Analysis",
+        "Combinatorics",
+        "Computability",
+        "Geometry",
+        "GroupTheory"
+      ],
+      "n_disc": 5
+    },
+    "Computability": {
+      "closure": 5526,
+      "oai": 5254,
+      "ext": 272,
+      "discs": [
+        "Combinatorics",
+        "Computability",
+        "GroupTheory"
+      ],
+      "n_disc": 3
+    },
+    "Dynamics": {
+      "closure": 764,
+      "oai": 746,
+      "ext": 18,
+      "discs": [
+        "Combinatorics",
+        "Dynamics",
+        "Geometry"
+      ],
+      "n_disc": 3
+    },
+    "GameTheory": {
+      "closure": 304,
+      "oai": 303,
+      "ext": 1,
+      "discs": [
+        "GameTheory"
+      ],
+      "n_disc": 1
+    },
+    "Geometry": {
+      "closure": 14929,
+      "oai": 14275,
+      "ext": 654,
+      "discs": [
+        "AlgebraicTopology",
+        "Analysis",
+        "Combinatorics",
+        "Computability",
+        "Dynamics",
+        "Geometry",
+        "GroupTheory",
+        "MeasureTheory"
+      ],
+      "n_disc": 8
+    },
+    "GroupTheory": {
+      "closure": 4927,
+      "oai": 4228,
+      "ext": 699,
+      "discs": [
+        "AlgebraicTopology",
+        "Combinatorics",
+        "Computability",
+        "Geometry",
+        "GroupTheory"
+      ],
+      "n_disc": 5
+    },
+    "InformationTheory": {
+      "closure": 558,
+      "oai": 483,
+      "ext": 75,
+      "discs": [
+        "Analysis",
+        "Combinatorics",
+        "InformationTheory",
+        "MathematicalPhysics"
+      ],
+      "n_disc": 4
+    },
+    "LinearAlgebra": {
+      "closure": 1163,
+      "oai": 954,
+      "ext": 209,
+      "discs": [
+        "LinearAlgebra"
+      ],
+      "n_disc": 1
+    },
+    "MathematicalPhysics": {
+      "closure": 7664,
+      "oai": 7173,
+      "ext": 491,
+      "discs": [
+        "Analysis",
+        "Computability",
+        "Geometry",
+        "InformationTheory",
+        "MathematicalPhysics"
+      ],
+      "n_disc": 5
+    },
+    "MeasureTheory": {
+      "closure": 3181,
+      "oai": 2959,
+      "ext": 222,
+      "discs": [
+        "Analysis",
+        "MeasureTheory"
+      ],
+      "n_disc": 2
+    },
+    "ModelTheory": {
+      "closure": 43,
+      "oai": 42,
+      "ext": 1,
+      "discs": [
+        "ModelTheory"
+      ],
+      "n_disc": 1
+    },
+    "NumberTheory": {
+      "closure": 4810,
+      "oai": 4463,
+      "ext": 347,
+      "discs": [
+        "NumberTheory"
+      ],
+      "n_disc": 1
+    }
+  },
+  "mathlib_check": {
+    "Algebra": {
+      "with_ml": [
+        "Algebra"
+      ],
+      "without_ml": [
+        "Algebra"
+      ],
+      "only_via_ml": []
+    },
+    "AlgebraicGeometry": {
+      "with_ml": [
+        "AlgebraicGeometry"
+      ],
+      "without_ml": [
+        "AlgebraicGeometry"
+      ],
+      "only_via_ml": []
+    },
+    "AlgebraicTopology": {
+      "with_ml": [
+        "AlgebraicTopology",
+        "Analysis",
+        "Geometry",
+        "GroupTheory"
+      ],
+      "without_ml": [
+        "AlgebraicTopology",
+        "Analysis",
+        "Geometry",
+        "GroupTheory"
+      ],
+      "only_via_ml": []
+    },
+    "Analysis": {
+      "with_ml": [
+        "Algebra",
+        "AlgebraicTopology",
+        "Analysis",
+        "Computability",
+        "Geometry",
+        "InformationTheory",
+        "LinearAlgebra",
+        "MeasureTheory"
+      ],
+      "without_ml": [
+        "Algebra",
+        "AlgebraicTopology",
+        "Analysis",
+        "Computability",
+        "Geometry",
+        "InformationTheory",
+        "LinearAlgebra",
+        "MeasureTheory"
+      ],
+      "only_via_ml": []
+    },
+    "CategoryTheory": {
+      "with_ml": [
+        "CategoryTheory",
+        "LinearAlgebra"
+      ],
+      "without_ml": [
+        "CategoryTheory",
+        "LinearAlgebra"
+      ],
+      "only_via_ml": []
+    },
+    "Combinatorics": {
+      "with_ml": [
+        "Analysis",
+        "Combinatorics",
+        "Computability",
+        "Geometry",
+        "GroupTheory"
+      ],
+      "without_ml": [
+        "Analysis",
+        "Combinatorics",
+        "Computability",
+        "Geometry",
+        "GroupTheory"
+      ],
+      "only_via_ml": []
+    },
+    "Computability": {
+      "with_ml": [
+        "Combinatorics",
+        "Computability",
+        "GroupTheory"
+      ],
+      "without_ml": [
+        "Combinatorics",
+        "Computability",
+        "GroupTheory"
+      ],
+      "only_via_ml": []
+    },
+    "Dynamics": {
+      "with_ml": [
+        "Combinatorics",
+        "Dynamics",
+        "Geometry"
+      ],
+      "without_ml": [
+        "Combinatorics",
+        "Dynamics",
+        "Geometry"
+      ],
+      "only_via_ml": []
+    },
+    "GameTheory": {
+      "with_ml": [
+        "GameTheory"
+      ],
+      "without_ml": [
+        "GameTheory"
+      ],
+      "only_via_ml": []
+    },
+    "Geometry": {
+      "with_ml": [
+        "AlgebraicTopology",
+        "Analysis",
+        "Combinatorics",
+        "Computability",
+        "Dynamics",
+        "Geometry",
+        "GroupTheory",
+        "MeasureTheory"
+      ],
+      "without_ml": [
+        "AlgebraicTopology",
+        "Analysis",
+        "Combinatorics",
+        "Computability",
+        "Dynamics",
+        "Geometry",
+        "GroupTheory",
+        "MeasureTheory"
+      ],
+      "only_via_ml": []
+    },
+    "GroupTheory": {
+      "with_ml": [
+        "AlgebraicTopology",
+        "Combinatorics",
+        "Computability",
+        "Geometry",
+        "GroupTheory"
+      ],
+      "without_ml": [
+        "AlgebraicTopology",
+        "Combinatorics",
+        "Computability",
+        "Geometry",
+        "GroupTheory"
+      ],
+      "only_via_ml": []
+    },
+    "InformationTheory": {
+      "with_ml": [
+        "Analysis",
+        "Combinatorics",
+        "InformationTheory",
+        "MathematicalPhysics"
+      ],
+      "without_ml": [
+        "Analysis",
+        "Combinatorics",
+        "InformationTheory",
+        "MathematicalPhysics"
+      ],
+      "only_via_ml": []
+    },
+    "LinearAlgebra": {
+      "with_ml": [
+        "LinearAlgebra"
+      ],
+      "without_ml": [
+        "LinearAlgebra"
+      ],
+      "only_via_ml": []
+    },
+    "MathematicalPhysics": {
+      "with_ml": [
+        "Analysis",
+        "Computability",
+        "Geometry",
+        "InformationTheory",
+        "MathematicalPhysics"
+      ],
+      "without_ml": [
+        "Analysis",
+        "Computability",
+        "Geometry",
+        "InformationTheory",
+        "MathematicalPhysics"
+      ],
+      "only_via_ml": []
+    },
+    "MeasureTheory": {
+      "with_ml": [
+        "Analysis",
+        "MeasureTheory"
+      ],
+      "without_ml": [
+        "Analysis",
+        "MeasureTheory"
+      ],
+      "only_via_ml": []
+    },
+    "ModelTheory": {
+      "with_ml": [
+        "ModelTheory"
+      ],
+      "without_ml": [
+        "ModelTheory"
+      ],
+      "only_via_ml": []
+    },
+    "NumberTheory": {
+      "with_ml": [
+        "NumberTheory"
+      ],
+      "without_ml": [
+        "NumberTheory"
+      ],
+      "only_via_ml": []
+    }
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "n_cross_cited": 317,
+  "user_dist": {
+    "2": 304,
+    "3": 13
+  },
+  "private": 0,
+  "shared": 317,
+  "truly_shared": 317,
+  "fam_name_collisions": 7,
+  "top_shared": [
+    {
+      "module": "OAI.Geometry.ComplexBundle.Orthonormal",
+      "users": 3,
+      "discs": [
+        "AlgebraicTopology",
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Geometry.ComplexBundle.LineStage",
+      "users": 3,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Geometry.ComplexBundle.Tuples",
+      "users": 3,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Computability.Interspersed.Stacks",
+      "users": 3,
+      "discs": [
+        "Analysis",
+        "Computability",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.Quantum.PPTSquare.TensorPositivity",
+      "users": 3,
+      "discs": [
+        "Analysis",
+        "InformationTheory"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.RecorderRadix.Tape",
+      "users": 3,
+      "discs": [
+        "Analysis",
+        "Geometry",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Computability.SolenoidalRecorder.Machines",
+      "users": 3,
+      "discs": [
+        "Analysis",
+        "Computability",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.GroupTheory.Congruence.Basic",
+      "users": 3,
+      "discs": [
+        "Combinatorics",
+        "Geometry",
+        "GroupTheory"
+      ]
+    },
+    {
+      "module": "OAI.Combinatorics.PerfectMatching.Model",
+      "users": 3,
+      "discs": [
+        "Combinatorics",
+        "Computability"
+      ]
+    },
+    {
+      "module": "OAI.GroupTheory.BooneHigman.Basic",
+      "users": 3,
+      "discs": [
+        "Computability",
+        "GroupTheory"
+      ]
+    },
+    {
+      "module": "OAI.GroupTheory.BooneHigman.WordProblem",
+      "users": 3,
+      "discs": [
+        "Computability",
+        "GroupTheory"
+      ]
+    },
+    {
+      "module": "OAI.Computability.SolenoidalRecorder.Checkpoints",
+      "users": 3,
+      "discs": [
+        "Computability",
+        "Geometry",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Computability.SolenoidalRecorder.Rules",
+      "users": 3,
+      "discs": [
+        "Computability",
+        "Geometry",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.AlgebraicTopology.Cubical.PathChains",
+      "users": 2,
+      "discs": [
+        "AlgebraicTopology",
+        "GroupTheory"
+      ]
+    },
+    {
+      "module": "OAI.Geometry.ComplexBundle.Tensor",
+      "users": 2,
+      "discs": [
+        "AlgebraicTopology",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.AlgebraicTopology.IntegralHomology.GraphNormalization",
+      "users": 2,
+      "discs": [
+        "AlgebraicTopology",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Geometry.ComplexBundle.GrassmannManifold",
+      "users": 2,
+      "discs": [
+        "AlgebraicTopology",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Geometry.ComplexBundle.Sections",
+      "users": 2,
+      "discs": [
+        "AlgebraicTopology",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.AffineBernstein.LocalMaximumSecond",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.BiholderTransport.Calculus.ImplicitNeighborhood",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.BiholderTransport.Calculus.PathCalculus",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.BiholderTransport.Regularity.UnitTime",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.BiholderTransport.LocalFlow.SmoothFlowEndpoint",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Geometry.Cannon.Beltrami.TwoPointNormalize",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Geometry.Cannon.Beltrami.MultiplyLp",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Geometry.Cannon.Beltrami.Mollifier",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Geometry.Cannon.Beltrami.ContinuousMemLpRestrict",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Geometry.Cannon.Beltrami.DirichletPullback",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Geometry.Cannon.Topology.CenteredHomeomorph",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Geometry.Cannon.Beltrami.CauchySymbol",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Geometry.Cannon.Conformal.Sphere",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "Geometry"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.CoulombRadii.FormDomain.CubeGradient",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.CoulombRadii.FormDomain.Pullback",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.CoulombRadii.FormDomain.HardyMollifier",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.CoulombRadii.FieldAnalysis.FermionicCoefficients",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.CoulombRadii.FormDomain.Add",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.CoulombRadii.FormDomain.OrbitalHilbertBasis",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.CoulombRadii.Packets.CoulombKernel",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.CoulombRadii.FieldAnalysis.SpinConfigurationIntegral",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    },
+    {
+      "module": "OAI.Analysis.CoulombRadii.FieldAnalysis.Space",
+      "users": 2,
+      "discs": [
+        "Analysis",
+        "MathematicalPhysics"
+      ]
+    }
+  ]
+}

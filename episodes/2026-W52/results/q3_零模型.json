@@ -1,0 +1,50 @@
+{
+  "observed": 0.9955484818805093,
+  "n_edge": 204200,
+  "n_same": 203291,
+  "sizes": {
+    "Algebra": 2081,
+    "AlgebraicGeometry": 975,
+    "AlgebraicTopology": 45,
+    "Analysis": 26567,
+    "CategoryTheory": 312,
+    "Combinatorics": 16614,
+    "Computability": 5213,
+    "Dynamics": 664,
+    "GameTheory": 303,
+    "Geometry": 14057,
+    "GroupTheory": 4192,
+    "InformationTheory": 339,
+    "LinearAlgebra": 954,
+    "MathematicalPhysics": 6736,
+    "MeasureTheory": 2950,
+    "ModelTheory": 42,
+    "NumberTheory": 4463
+  },
+  "nulls": {
+    "M0_uniform": {
+      "mean": 0.17444287463271302,
+      "lo": 0.17286973555337903,
+      "hi": 0.17614103819784524,
+      "z": 972.3285660785964,
+      "p": 0.004975124378109453
+    },
+    "M1_degree": {
+      "mean": 0.21740604799216454,
+      "lo": 0.21594025465230166,
+      "hi": 0.21900097943192948,
+      "z": 1026.381373431134,
+      "p": 0.004975124378109453
+    },
+    "M2_same_pref": {
+      "mean": 0.9950276199804113,
+      "lo": 0.9947551420176298,
+      "hi": 0.9953525954946131,
+      "z": 3.120994132589432,
+      "p": 0.009950248756218905
+    }
+  },
+  "n_perm": 200,
+  "seed": 20261011,
+  "verdict": "观测**远超**最保守零模型 ⇒ 聚类显著"
+}

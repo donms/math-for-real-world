@@ -1,0 +1,73 @@
+{
+  "alpha": 0.0125,
+  "n_cross": 29,
+  "n_mono": 398,
+  "results": {
+    "mods": {
+      "median_cross": 15,
+      "median_mono": 47.0,
+      "U": 4716.5,
+      "p": 0.10019792019798568,
+      "significant": false
+    },
+    "cited": {
+      "median_cross": 1,
+      "median_mono": 0.0,
+      "U": 7244.5,
+      "p": 0.004594597145889168,
+      "significant": true
+    },
+    "formal": {
+      "cross": 3,
+      "n_cross": 29,
+      "mono": 104,
+      "n_mono": 398,
+      "p_cross": 0.10344827586206896,
+      "p_mono": 0.2613065326633166,
+      "p": 0.07408632460790372,
+      "significant": false,
+      "ci_cross": [
+        0.035814240381301043,
+        0.26385447247069155
+      ],
+      "ci_mono": [
+        0.22057068135982935,
+        0.3066061962954457
+      ]
+    },
+    "main": {
+      "cross": 3,
+      "n_cross": 29,
+      "mono": 144,
+      "n_mono": 398,
+      "p_cross": 0.10344827586206896,
+      "p_mono": 0.36180904522613067,
+      "p": 0.003975033907873123,
+      "significant": true,
+      "ci_cross": [
+        0.035814240381301043,
+        0.26385447247069155
+      ],
+      "ci_mono": [
+        0.31612826364738594,
+        0.41013203394251024
+      ]
+    }
+  },
+  "group_stats": {
+    "cross": {
+      "mods_median": 15,
+      "mods_mean": 363.5,
+      "mods_max": 3091,
+      "cited_median": 1,
+      "cited_mean": 6.9
+    },
+    "mono": {
+      "mods_median": 47.0,
+      "mods_mean": 190.9,
+      "mods_max": 4774,
+      "cited_median": 0.0,
+      "cited_mean": 8.5
+    }
+  }
+}
