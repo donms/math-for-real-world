@@ -1,0 +1,893 @@
+{
+  "days": 125,
+  "rows_per_day": {
+    "min": 1253,
+    "max": 36083
+  },
+  "missing_pct": 0.0,
+  "zero_pct": 29.758,
+  "speed_range": [
+    0.0,
+    119.92
+  ],
+  "holidays_in_range": [
+    [
+      "2026-05-25",
+      "Monday",
+      "Memorial Day"
+    ],
+    [
+      "2026-06-19",
+      "Friday",
+      "Juneteenth"
+    ],
+    [
+      "2026-07-03",
+      "Friday",
+      "Independence Day (observed)"
+    ],
+    [
+      "2026-07-04",
+      "Saturday",
+      "Independence Day"
+    ],
+    [
+      "2026-09-07",
+      "Monday",
+      "Labor Day"
+    ]
+  ],
+  "links": 125,
+  "links_multi_name": 0,
+  "peak_by_day": {
+    "2026-05-11": {
+      "mean": 25.86,
+      "median": 24.23,
+      "n": 3636,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-05-12": {
+      "mean": 22.75,
+      "median": 18.01,
+      "n": 3636,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-05-13": {
+      "mean": 24.24,
+      "median": 22.36,
+      "n": 3636,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-05-14": {
+      "mean": 24.05,
+      "median": 22.99,
+      "n": 3636,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-05-15": {
+      "mean": 21.39,
+      "median": 16.77,
+      "n": 3636,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-05-16": {
+      "mean": 29.86,
+      "median": 30.13,
+      "n": 3636,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-05-17": {
+      "mean": 34.76,
+      "median": 43.49,
+      "n": 3636,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-05-18": {
+      "mean": 23.56,
+      "median": 20.5,
+      "n": 3636,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-05-19": {
+      "mean": 20.42,
+      "median": 15.53,
+      "n": 3636,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-05-20": {
+      "mean": 20.39,
+      "median": 15.53,
+      "n": 3640,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-05-21": {
+      "mean": 25.95,
+      "median": 26.09,
+      "n": 3598,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-05-22": {
+      "mean": 30.04,
+      "median": 33.55,
+      "n": 3637,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-05-23": {
+      "mean": 34.18,
+      "median": 42.87,
+      "n": 3635,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-05-24": {
+      "mean": 34.69,
+      "median": 42.87,
+      "n": 3703,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-05-25": {
+      "mean": 33.89,
+      "median": 42.87,
+      "n": 3636,
+      "dow": "Mon",
+      "holiday": true
+    },
+    "2026-05-26": {
+      "mean": 24.47,
+      "median": 22.36,
+      "n": 3568,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-05-27": {
+      "mean": 28.19,
+      "median": 30.44,
+      "n": 3351,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-05-28": {
+      "mean": 23.1,
+      "median": 21.12,
+      "n": 3636,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-05-29": {
+      "mean": 24.22,
+      "median": 22.36,
+      "n": 4568,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-05-30": {
+      "mean": 30.64,
+      "median": 34.17,
+      "n": 3636,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-05-31": {
+      "mean": 35.87,
+      "median": 44.11,
+      "n": 3635,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-06-01": {
+      "mean": 17.32,
+      "median": 12.42,
+      "n": 3697,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-06-02": {
+      "mean": 19.6,
+      "median": 15.53,
+      "n": 3636,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-06-03": {
+      "mean": 18.77,
+      "median": 14.29,
+      "n": 3637,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-06-04": {
+      "mean": 20.34,
+      "median": 13.67,
+      "n": 3536,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-06-05": {
+      "mean": 24.16,
+      "median": 22.99,
+      "n": 3634,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-06-06": {
+      "mean": 27.92,
+      "median": 29.82,
+      "n": 3636,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-06-07": {
+      "mean": 30.34,
+      "median": 35.41,
+      "n": 3636,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-06-08": {
+      "mean": 19.08,
+      "median": 13.67,
+      "n": 3636,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-06-09": {
+      "mean": 19.42,
+      "median": 12.11,
+      "n": 3636,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-06-10": {
+      "mean": 20.77,
+      "median": 15.53,
+      "n": 4501,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-06-11": {
+      "mean": 22.07,
+      "median": 18.01,
+      "n": 4508,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-06-12": {
+      "mean": 21.64,
+      "median": 17.39,
+      "n": 4517,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-06-13": {
+      "mean": 28.22,
+      "median": 30.44,
+      "n": 4484,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-06-17": {
+      "mean": 20.87,
+      "median": 16.77,
+      "n": 4500,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-06-18": {
+      "mean": 20.82,
+      "median": 15.53,
+      "n": 4503,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-06-19": {
+      "mean": 24.07,
+      "median": 20.5,
+      "n": 4581,
+      "dow": "Fri",
+      "holiday": true
+    },
+    "2026-06-20": {
+      "mean": 29.12,
+      "median": 32.93,
+      "n": 4408,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-06-21": {
+      "mean": 32.48,
+      "median": 41.01,
+      "n": 3583,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-06-22": {
+      "mean": 23.66,
+      "median": 22.99,
+      "n": 4503,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-06-23": {
+      "mean": 22.22,
+      "median": 19.26,
+      "n": 4489,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-06-24": {
+      "mean": 21.47,
+      "median": 18.64,
+      "n": 4499,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-06-25": {
+      "mean": 22.0,
+      "median": 19.26,
+      "n": 4506,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-06-26": {
+      "mean": 24.7,
+      "median": 24.85,
+      "n": 4500,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-06-27": {
+      "mean": 29.39,
+      "median": 34.17,
+      "n": 4505,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-06-28": {
+      "mean": 30.53,
+      "median": 34.79,
+      "n": 4599,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-06-29": {
+      "mean": 23.76,
+      "median": 22.36,
+      "n": 3276,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-06-30": {
+      "mean": 24.42,
+      "median": 22.99,
+      "n": 4501,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-07-01": {
+      "mean": 23.2,
+      "median": 20.5,
+      "n": 4501,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-07-02": {
+      "mean": 23.61,
+      "median": 22.36,
+      "n": 4500,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-07-03": {
+      "mean": 29.02,
+      "median": 34.17,
+      "n": 4500,
+      "dow": "Fri",
+      "holiday": true
+    },
+    "2026-07-04": {
+      "mean": 30.93,
+      "median": 39.14,
+      "n": 4500,
+      "dow": "Sat",
+      "holiday": true
+    },
+    "2026-07-05": {
+      "mean": 31.77,
+      "median": 40.38,
+      "n": 4464,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-07-06": {
+      "mean": 22.78,
+      "median": 21.12,
+      "n": 4464,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-07-07": {
+      "mean": 25.43,
+      "median": 26.71,
+      "n": 4500,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-07-08": {
+      "mean": 23.85,
+      "median": 22.99,
+      "n": 4500,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-07-09": {
+      "mean": 24.46,
+      "median": 23.61,
+      "n": 4500,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-07-11": {
+      "mean": 28.6,
+      "median": 30.44,
+      "n": 4451,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-07-12": {
+      "mean": 30.8,
+      "median": 34.79,
+      "n": 4345,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-07-13": {
+      "mean": 22.61,
+      "median": 19.26,
+      "n": 4500,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-07-14": {
+      "mean": 23.03,
+      "median": 19.88,
+      "n": 4500,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-07-15": {
+      "mean": 22.85,
+      "median": 18.64,
+      "n": 4500,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-07-16": {
+      "mean": 21.81,
+      "median": 14.29,
+      "n": 4500,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-07-17": {
+      "mean": 26.17,
+      "median": 26.09,
+      "n": 4500,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-07-20": {
+      "mean": 24.02,
+      "median": 21.74,
+      "n": 4518,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-07-21": {
+      "mean": 24.35,
+      "median": 21.12,
+      "n": 4500,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-07-22": {
+      "mean": 24.49,
+      "median": 21.12,
+      "n": 4581,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-07-23": {
+      "mean": 25.16,
+      "median": 22.36,
+      "n": 4500,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-07-24": {
+      "mean": 26.5,
+      "median": 24.85,
+      "n": 4500,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-07-25": {
+      "mean": 29.1,
+      "median": 30.44,
+      "n": 4500,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-07-26": {
+      "mean": 33.23,
+      "median": 38.83,
+      "n": 4500,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-07-27": {
+      "mean": 25.53,
+      "median": 22.99,
+      "n": 4500,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-07-28": {
+      "mean": 25.55,
+      "median": 22.99,
+      "n": 4497,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-07-29": {
+      "mean": 25.17,
+      "median": 23.61,
+      "n": 4500,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-07-30": {
+      "mean": 25.1,
+      "median": 22.36,
+      "n": 3144,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-07-31": {
+      "mean": 25.92,
+      "median": 23.61,
+      "n": 4500,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-08-01": {
+      "mean": 30.26,
+      "median": 34.17,
+      "n": 4581,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-08-02": {
+      "mean": 32.34,
+      "median": 38.52,
+      "n": 4500,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-08-03": {
+      "mean": 22.02,
+      "median": 18.64,
+      "n": 3625,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-08-04": {
+      "mean": 24.79,
+      "median": 21.12,
+      "n": 4496,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-08-05": {
+      "mean": 25.9,
+      "median": 22.99,
+      "n": 4500,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-08-06": {
+      "mean": 25.75,
+      "median": 22.99,
+      "n": 4497,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-08-07": {
+      "mean": 26.58,
+      "median": 25.47,
+      "n": 4498,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-08-08": {
+      "mean": 31.62,
+      "median": 36.66,
+      "n": 4496,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-08-09": {
+      "mean": 33.79,
+      "median": 40.38,
+      "n": 4500,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-08-10": {
+      "mean": 25.54,
+      "median": 23.61,
+      "n": 4521,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-08-11": {
+      "mean": 25.2,
+      "median": 22.36,
+      "n": 4496,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-08-12": {
+      "mean": 25.94,
+      "median": 24.23,
+      "n": 4502,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-08-13": {
+      "mean": 24.71,
+      "median": 22.36,
+      "n": 4499,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-08-14": {
+      "mean": 26.77,
+      "median": 27.34,
+      "n": 4500,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-08-15": {
+      "mean": 30.0,
+      "median": 33.55,
+      "n": 4500,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-08-16": {
+      "mean": 33.77,
+      "median": 40.7,
+      "n": 4500,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-08-17": {
+      "mean": 23.95,
+      "median": 21.12,
+      "n": 4500,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-08-18": {
+      "mean": 23.99,
+      "median": 21.74,
+      "n": 4500,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-08-19": {
+      "mean": 26.3,
+      "median": 25.47,
+      "n": 4504,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-08-20": {
+      "mean": 25.56,
+      "median": 22.36,
+      "n": 4500,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-08-21": {
+      "mean": 27.07,
+      "median": 27.96,
+      "n": 4500,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-08-22": {
+      "mean": 32.61,
+      "median": 38.52,
+      "n": 4500,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-08-23": {
+      "mean": 32.37,
+      "median": 37.28,
+      "n": 4500,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-08-24": {
+      "mean": 27.04,
+      "median": 26.09,
+      "n": 4500,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-08-25": {
+      "mean": 26.26,
+      "median": 24.23,
+      "n": 4500,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-08-26": {
+      "mean": 27.12,
+      "median": 25.47,
+      "n": 4500,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-08-27": {
+      "mean": 26.86,
+      "median": 27.96,
+      "n": 3880,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-08-28": {
+      "mean": 25.88,
+      "median": 22.36,
+      "n": 4500,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-08-29": {
+      "mean": 27.71,
+      "median": 29.82,
+      "n": 4500,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-08-30": {
+      "mean": 29.19,
+      "median": 32.31,
+      "n": 4500,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-08-31": {
+      "mean": 24.56,
+      "median": 21.12,
+      "n": 4500,
+      "dow": "Mon",
+      "holiday": false
+    },
+    "2026-09-01": {
+      "mean": 17.23,
+      "median": 6.83,
+      "n": 4500,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-09-02": {
+      "mean": 20.69,
+      "median": 14.91,
+      "n": 2106,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-09-03": {
+      "mean": 20.8,
+      "median": 12.42,
+      "n": 4500,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-09-04": {
+      "mean": 22.67,
+      "median": 16.15,
+      "n": 4500,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-09-05": {
+      "mean": 26.95,
+      "median": 25.47,
+      "n": 4500,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-09-06": {
+      "mean": 28.58,
+      "median": 32.93,
+      "n": 4500,
+      "dow": "Sun",
+      "holiday": false
+    },
+    "2026-09-07": {
+      "mean": 28.81,
+      "median": 34.17,
+      "n": 4500,
+      "dow": "Mon",
+      "holiday": true
+    },
+    "2026-09-08": {
+      "mean": 19.78,
+      "median": 14.29,
+      "n": 4500,
+      "dow": "Tue",
+      "holiday": false
+    },
+    "2026-09-09": {
+      "mean": 19.98,
+      "median": 14.29,
+      "n": 4498,
+      "dow": "Wed",
+      "holiday": false
+    },
+    "2026-09-10": {
+      "mean": 18.94,
+      "median": 12.42,
+      "n": 4497,
+      "dow": "Thu",
+      "holiday": false
+    },
+    "2026-09-11": {
+      "mean": 21.13,
+      "median": 13.04,
+      "n": 4500,
+      "dow": "Fri",
+      "holiday": false
+    },
+    "2026-09-12": {
+      "mean": 26.89,
+      "median": 26.09,
+      "n": 4500,
+      "dow": "Sat",
+      "holiday": false
+    },
+    "2026-09-13": {
+      "mean": 26.5,
+      "median": 30.44,
+      "n": 4500,
+      "dow": "Sun",
+      "holiday": false
+    }
+  },
+  "by_weekday": {
+    "Mon": 23.42,
+    "Tue": 22.88,
+    "Wed": 23.34,
+    "Thu": 23.39,
+    "Fri": 24.99,
+    "Sat": 29.57,
+    "Sun": 31.94
+  }
+}

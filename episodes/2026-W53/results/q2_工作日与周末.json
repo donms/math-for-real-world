@@ -1,0 +1,116 @@
+{
+  "quality": {
+    "days_total": 125,
+    "days_after_cov_filter": 110,
+    "days_dropped": 15,
+    "min_day_cov": 0.0348,
+    "common_links": 101,
+    "holidays": {
+      "2026-05-25": "Memorial Day",
+      "2026-06-19": "Juneteenth",
+      "2026-07-03": "Independence Day (observed)",
+      "2026-07-04": "Independence Day",
+      "2026-09-07": "Labor Day"
+    },
+    "note": "数据质量门槛（w53_data.py）：(1) 剔除 speed<=0（占 29.76%，视为无读数）；(2) 剔除当日覆盖率 < 75% 的日子；(3) 仅使用全程出现的 link（消除 6 月由 101 增至 125 条的组成变化）；(4) 剔除 2026 年联邦假日。"
+  },
+  "peak": [
+    7,
+    8,
+    9
+  ],
+  "days": 110,
+  "by_dow": {
+    "Mon": 32.33,
+    "Tue": 32.17,
+    "Wed": 32.36,
+    "Thu": 32.42,
+    "Fri": 34.53,
+    "Sat": 40.79,
+    "Sun": 44.6
+  },
+  "weekday_mean": 32.762,
+  "weekend_mean": 42.695,
+  "weekend_advantage_pct": 30.32,
+  "sun_minus_mon_pct": 37.95,
+  "wd_vs_we_all": {
+    "n": 3828,
+    "links": 86,
+    "mean_a": 32.859,
+    "mean_b": 42.632,
+    "median_diff": -6.534,
+    "rel_pct": -15.33,
+    "ci": [
+      -7.8288,
+      -5.5871
+    ],
+    "p": 0.0
+  },
+  "by_season": {
+    "暑假前（学期中）": {
+      "n": 1197,
+      "links": 86,
+      "mean_a": 30.316,
+      "mean_b": 41.021,
+      "median_diff": -7.3109,
+      "rel_pct": -17.82,
+      "ci": [
+        -9.7102,
+        -5.6212
+      ],
+      "p": 0.0
+    },
+    "暑假中": {
+      "n": 2199,
+      "links": 83,
+      "mean_a": 34.079,
+      "mean_b": 43.487,
+      "median_diff": -6.4989,
+      "rel_pct": -14.94,
+      "ci": [
+        -7.6954,
+        -5.6919
+      ],
+      "p": 0.0
+    },
+    "暑假后（已开学）": {
+      "n": 216,
+      "links": 72,
+      "mean_a": 31.406,
+      "mean_b": 41.605,
+      "median_diff": -5.1566,
+      "rel_pct": -12.39,
+      "ci": [
+        -7.8573,
+        -3.4112
+      ],
+      "p": 0.0
+    }
+  },
+  "mon_vs_mid": {
+    "n": 3527,
+    "links": 86,
+    "mean_a": 32.285,
+    "mean_b": 32.626,
+    "median_diff": 0.1208,
+    "rel_pct": 0.37,
+    "ci": [
+      -0.12,
+      0.2933
+    ],
+    "p": 0.3340669353748611
+  },
+  "fri_vs_mid": {
+    "n": 3540,
+    "links": 86,
+    "mean_a": 34.586,
+    "mean_b": 32.404,
+    "median_diff": 1.0373,
+    "rel_pct": 3.2,
+    "ci": [
+      0.6941,
+      1.4796
+    ],
+    "p": 0.0
+  }
+}
