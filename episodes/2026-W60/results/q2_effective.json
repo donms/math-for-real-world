@@ -1,0 +1,69 @@
+{
+  "peak_tops": 280.0,
+  "bw_gbps": 205.0,
+  "ridge_ops_per_byte": 1366.0,
+  "points": [
+    {
+      "ai": 100,
+      "tops": 20.5,
+      "util_pct": 7.3
+    },
+    {
+      "ai": 200,
+      "tops": 41.0,
+      "util_pct": 14.6
+    },
+    {
+      "ai": 400,
+      "tops": 82.0,
+      "util_pct": 29.3
+    },
+    {
+      "ai": 800,
+      "tops": 164.0,
+      "util_pct": 58.6
+    },
+    {
+      "ai": 1366,
+      "tops": 280.0,
+      "util_pct": 100.0
+    },
+    {
+      "ai": 2000,
+      "tops": 280.0,
+      "util_pct": 100.0
+    }
+  ],
+  "measured_util_pct": [
+    25.0,
+    40.0
+  ],
+  "ai_equivalent_of_measured": {
+    "25%": 341.0,
+    "40%": 546.0
+  },
+  "bw_sensitivity": [
+    {
+      "bw": 160.0,
+      "ridge": 1750.0,
+      "util_at_400": 22.9
+    },
+    {
+      "bw": 205.0,
+      "ridge": 1366.0,
+      "util_at_400": 29.3
+    },
+    {
+      "bw": 256.0,
+      "ridge": 1094.0,
+      "util_at_400": 36.6
+    }
+  ],
+  "quantization_snr_db": {
+    "int8": 39.8,
+    "int4": 15.7,
+    "int8_outlier": 25.2,
+    "int4_outlier": 3.4
+  },
+  "note": "roofline 的 AI 是 DRAM 级；有效 AI 含片上复用，故实测利用率高于低 AI 段的屋顶线"
+}
