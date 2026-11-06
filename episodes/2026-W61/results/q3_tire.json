@@ -1,0 +1,66 @@
+{
+  "radius_m": 0.34,
+  "speed_kmh": 500,
+  "omega_rad_s": 408.5,
+  "rpm": 3901.0,
+  "centripetal_m_s2": 56736.0,
+  "centripetal_g": 5783.0,
+  "materials": {
+    "橡胶（无带束）": {
+      "hoop_stress_MPa": 21.2,
+      "radial_growth_mm": 721.45
+    },
+    "芳纶带束": {
+      "hoop_stress_MPa": 27.8,
+      "radial_growth_mm": 0.12
+    },
+    "钢丝带束": {
+      "hoop_stress_MPa": 150.5,
+      "radial_growth_mm": 0.26
+    }
+  },
+  "load": {
+    "static_N": 4414.0,
+    "with_downforce_N": 5940.0,
+    "heat_per_tire_kW": 8.2,
+    "heat_total_kW": 33.0
+  },
+  "speed_curve": [
+    {
+      "v_kmh": 200,
+      "g": 925.0,
+      "growth_mm_belt": 0.04,
+      "rubber_growth_mm": 819.0
+    },
+    {
+      "v_kmh": 300,
+      "g": 2082.0,
+      "growth_mm_belt": 0.09,
+      "rubber_growth_mm": 1842.0
+    },
+    {
+      "v_kmh": 400,
+      "g": 3701.0,
+      "growth_mm_belt": 0.16,
+      "rubber_growth_mm": 3274.0
+    },
+    {
+      "v_kmh": 450,
+      "g": 4685.0,
+      "growth_mm_belt": 0.21,
+      "rubber_growth_mm": 4144.0
+    },
+    {
+      "v_kmh": 500,
+      "g": 5783.0,
+      "growth_mm_belt": 0.26,
+      "rubber_growth_mm": 5116.0
+    },
+    {
+      "v_kmh": 520,
+      "g": 6255.0,
+      "growth_mm_belt": 0.28,
+      "rubber_growth_mm": 5533.0
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "cda_body": 0.429,
+  "cda_limit": 0.55,
+  "ld_wing": 6.0,
+  "max_cla_within_budget": 0.726,
+  "frontier": [
+    {
+      "cla": 0.0,
+      "dcda": 0.0,
+      "cda": 0.429,
+      "downforce_kN": 0.0,
+      "downforce_g": 0.0,
+      "vmax_kmh": 567.6
+    },
+    {
+      "cla": 0.2,
+      "dcda": 0.033,
+      "cda": 0.462,
+      "downforce_kN": 2.22,
+      "downforce_g": 0.13,
+      "vmax_kmh": 553.7
+    },
+    {
+      "cla": 0.4,
+      "dcda": 0.067,
+      "cda": 0.496,
+      "downforce_kN": 4.44,
+      "downforce_g": 0.25,
+      "vmax_kmh": 541.2
+    },
+    {
+      "cla": 0.6,
+      "dcda": 0.1,
+      "cda": 0.529,
+      "downforce_kN": 6.66,
+      "downforce_g": 0.38,
+      "vmax_kmh": 529.7
+    },
+    {
+      "cla": 0.8,
+      "dcda": 0.133,
+      "cda": 0.562,
+      "downforce_kN": 8.87,
+      "downforce_g": 0.5,
+      "vmax_kmh": 519.1
+    },
+    {
+      "cla": 1.0,
+      "dcda": 0.167,
+      "cda": 0.596,
+      "downforce_kN": 11.09,
+      "downforce_g": 0.63,
+      "vmax_kmh": 509.3
+    },
+    {
+      "cla": 1.2,
+      "dcda": 0.2,
+      "cda": 0.629,
+      "downforce_kN": 13.31,
+      "downforce_g": 0.75,
+      "vmax_kmh": 500.3
+    }
+  ],
+  "stability": {
+    "front_static_kN": 7.95,
+    "need_front_downforce_kN": 1.59,
+    "need_total_downforce_kN": 2.65,
+    "cla_for_front_at_500": 0.318
+  },
+  "design": {
+    "cla": 0.55,
+    "cla_front": 0.22,
+    "cla_rear": 0.33,
+    "cda": 0.521,
+    "downforce_500_kN": 6.1,
+    "downforce_520_kN": 6.6,
+    "vmax_kmh": 532.5,
+    "cost_kmh": 35.1
+  },
+  "pitch_sensitivity": {
+    "dcl_per_10mm": 0.03,
+    "cl_at_pick": 0.282,
+    "delta_downforce_N_per_10mm": 649.0,
+    "note": "10 mm 的高度变化足以改变数百牛的升力 ⇒ 必须主动控高"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "downforce_N": 6100.0,
+  "ddforce_per_10mm_N": 649.0,
+  "tolerance_mm": 5.0,
+  "passive_k_need_kN_per_m": 1220.0,
+  "natural_freq_Hz": 8.3,
+  "typical_spring_kN_per_m": 60.0,
+  "typical_sag_mm": 25.4,
+  "typical_downforce_loss_N": -1650.0,
+  "pitch_moment_Nm": 1647.0,
+  "pitch_deg": 0.02,
+  "damping_Ns_per_m": 32803.0,
+  "active_bandwidth_Hz": 20,
+  "note": "被动弹簧下沉 15 mm 会再丢 970 N 下压力 ⇒ 正反馈，必须主动控高"
+}
