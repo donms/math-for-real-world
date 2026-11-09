@@ -1,0 +1,150 @@
+{
+  "cone": {
+    "6h": {
+      "n": 719,
+      "q50": 34.8,
+      "q80": 59.2,
+      "q90": 73.6,
+      "coverage_80": 0.8,
+      "coverage_90": 0.9
+    },
+    "12h": {
+      "n": 1802,
+      "q50": 39.0,
+      "q80": 67.5,
+      "q90": 94.4,
+      "coverage_80": 0.8,
+      "coverage_90": 0.9
+    },
+    "18h": {
+      "n": 631,
+      "q50": 51.7,
+      "q80": 79.0,
+      "q90": 114.3,
+      "coverage_80": 0.8,
+      "coverage_90": 0.9
+    },
+    "24h": {
+      "n": 1614,
+      "q50": 52.1,
+      "q80": 93.4,
+      "q90": 123.5,
+      "coverage_80": 0.8,
+      "coverage_90": 0.9
+    },
+    "36h": {
+      "n": 1406,
+      "q50": 67.5,
+      "q80": 119.4,
+      "q90": 163.6,
+      "coverage_80": 0.8,
+      "coverage_90": 0.9
+    },
+    "48h": {
+      "n": 1222,
+      "q50": 83.8,
+      "q80": 142.6,
+      "q90": 180.5,
+      "coverage_80": 0.8,
+      "coverage_90": 0.899
+    },
+    "60h": {
+      "n": 1044,
+      "q50": 103.8,
+      "q80": 172.3,
+      "q90": 213.7,
+      "coverage_80": 0.8,
+      "coverage_90": 0.899
+    },
+    "72h": {
+      "n": 858,
+      "q50": 131.1,
+      "q80": 211.2,
+      "q90": 248.7,
+      "coverage_80": 0.8,
+      "coverage_90": 0.9
+    },
+    "96h": {
+      "n": 608,
+      "q50": 158.9,
+      "q80": 291.1,
+      "q90": 378.3,
+      "coverage_80": 0.799,
+      "coverage_90": 0.9
+    },
+    "120h": {
+      "n": 440,
+      "q50": 221.1,
+      "q80": 406.9,
+      "q90": 514.4,
+      "coverage_80": 0.8,
+      "coverage_90": 0.9
+    }
+  },
+  "judge": {
+    "24h": {
+      "n": 986,
+      "event_rate": 0.1,
+      "error_q90_threshold_km": 124.9,
+      "auc": 0.453,
+      "rule": null,
+      "spearman_rev_err": -0.166
+    },
+    "48h": {
+      "n": 718,
+      "event_rate": 0.1,
+      "error_q90_threshold_km": 184.5,
+      "auc": 0.383,
+      "rule": null,
+      "spearman_rev_err": -0.193
+    },
+    "72h": {
+      "n": 466,
+      "event_rate": 0.101,
+      "error_q90_threshold_km": 250.4,
+      "auc": 0.57,
+      "rule": null,
+      "spearman_rev_err": -0.123
+    },
+    "96h": {
+      "n": 305,
+      "event_rate": 0.102,
+      "error_q90_threshold_km": 371.4,
+      "auc": 0.597,
+      "rule": null,
+      "spearman_rev_err": 0.024
+    },
+    "120h": {
+      "n": 213,
+      "event_rate": 0.103,
+      "error_q90_threshold_km": 506.3,
+      "auc": 0.502,
+      "rule": null,
+      "spearman_rev_err": 0.037
+    }
+  },
+  "n_pairs": 10344,
+  "n_with_rev": 6327,
+  "typhoon_level": {
+    "24h": {
+      "n_tc": 26,
+      "rho_median_revision_vs_error": -0.095
+    },
+    "48h": {
+      "n_tc": 23,
+      "rho_median_revision_vs_error": -0.035
+    },
+    "72h": {
+      "n_tc": 19,
+      "rho_median_revision_vs_error": -0.181
+    },
+    "96h": {
+      "n_tc": 18,
+      "rho_median_revision_vs_error": 0.088
+    },
+    "120h": {
+      "n_tc": 13,
+      "rho_median_revision_vs_error": -0.181
+    }
+  }
+}

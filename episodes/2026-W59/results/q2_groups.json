@@ -1,0 +1,1085 @@
+{
+  "n_typhoons": 31,
+  "n_pairs": 10344,
+  "features": {
+    "NOKAEN": {
+      "name": "NOKAEN",
+      "name_cn": "洛鞍",
+      "turn": 337.5,
+      "turn_step_max": 45,
+      "max_wind": 25,
+      "max_grade": "STS",
+      "weak": true,
+      "lat0": 9.4,
+      "speed_mean": 12.3
+    },
+    "PENHA": {
+      "name": "PENHA",
+      "name_cn": "西望洋",
+      "turn": 45.0,
+      "turn_step_max": 22.5,
+      "max_wind": 23,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 8.8,
+      "speed_mean": 22.1
+    },
+    "NURI": {
+      "name": "NURI",
+      "name_cn": "鹦鹉",
+      "turn": 45.0,
+      "turn_step_max": 45.0,
+      "max_wind": 18,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 11.7,
+      "speed_mean": 6.9
+    },
+    "SINLAKU": {
+      "name": "SINLAKU",
+      "name_cn": "森拉克",
+      "turn": 202.5,
+      "turn_step_max": 22.5,
+      "max_wind": 70,
+      "max_grade": "SuperTY",
+      "weak": false,
+      "lat0": 8.4,
+      "speed_mean": 14.5
+    },
+    "HAGUPIT": {
+      "name": "HAGUPIT",
+      "name_cn": "黑格比",
+      "turn": 67.5,
+      "turn_step_max": 22.5,
+      "max_wind": 20,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 8.4,
+      "speed_mean": 17.0
+    },
+    "JANGMI": {
+      "name": "JANGMI",
+      "name_cn": "蔷薇",
+      "turn": 247.5,
+      "turn_step_max": 22.5,
+      "max_wind": 35,
+      "max_grade": "TY",
+      "weak": false,
+      "lat0": 8.5,
+      "speed_mean": 23.9
+    },
+    "MEKKHALA": {
+      "name": "MEKKHALA",
+      "name_cn": "米克拉",
+      "turn": 225.0,
+      "turn_step_max": 22.5,
+      "max_wind": 55,
+      "max_grade": "SuperTY",
+      "weak": false,
+      "lat0": 14,
+      "speed_mean": 21.5
+    },
+    "HIGOS": {
+      "name": "HIGOS",
+      "name_cn": "海高斯",
+      "turn": 135.0,
+      "turn_step_max": 22.5,
+      "max_wind": 23,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 15.4,
+      "speed_mean": 34.6
+    },
+    "MAYSAK": {
+      "name": "MAYSAK",
+      "name_cn": "美莎克",
+      "turn": 360.0,
+      "turn_step_max": 45,
+      "max_wind": 28,
+      "max_grade": "STS",
+      "weak": true,
+      "lat0": 14.2,
+      "speed_mean": 15.2
+    },
+    "BAVI": {
+      "name": "BAVI",
+      "name_cn": "巴威",
+      "turn": 360.0,
+      "turn_step_max": 22.5,
+      "max_wind": 62,
+      "max_grade": "SuperTY",
+      "weak": false,
+      "lat0": 11,
+      "speed_mean": 22.3
+    },
+    "HAISHEN": {
+      "name": "HAISHEN",
+      "name_cn": "海神",
+      "turn": 112.5,
+      "turn_step_max": 22.5,
+      "max_wind": 18,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 10.6,
+      "speed_mean": 13.8
+    },
+    "NOUL": {
+      "name": "NOUL",
+      "name_cn": "红霞",
+      "turn": 135.0,
+      "turn_step_max": 22.5,
+      "max_wind": 45,
+      "max_grade": "STY",
+      "weak": false,
+      "lat0": 15.8,
+      "speed_mean": 20.6
+    },
+    "DOLPHIN": {
+      "name": "DOLPHIN",
+      "name_cn": "白海豚",
+      "turn": 495.0,
+      "turn_step_max": 22.5,
+      "max_wind": 65,
+      "max_grade": "SuperTY",
+      "weak": false,
+      "lat0": 13.2,
+      "speed_mean": 18.1
+    },
+    "KUJIRA": {
+      "name": "KUJIRA",
+      "name_cn": "鲸鱼",
+      "turn": 67.5,
+      "turn_step_max": 45,
+      "max_wind": 18,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 17.8,
+      "speed_mean": 5.2
+    },
+    "CHAN-HOM": {
+      "name": "CHAN-HOM",
+      "name_cn": "灿鸿",
+      "turn": 225.0,
+      "turn_step_max": 45,
+      "max_wind": 20,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 19.5,
+      "speed_mean": 24.2
+    },
+    "PEILOU": {
+      "name": "PEILOU",
+      "name_cn": "琵鹭",
+      "turn": 112.5,
+      "turn_step_max": 45.0,
+      "max_wind": 23,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 21.2,
+      "speed_mean": 32.6
+    },
+    "NANGKA": {
+      "name": "NANGKA",
+      "name_cn": "浪卡",
+      "turn": 157.5,
+      "turn_step_max": 45,
+      "max_wind": 18,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 21.8,
+      "speed_mean": 24.4
+    },
+    "SAUDEL": {
+      "name": "SAUDEL",
+      "name_cn": "沙德尔",
+      "turn": 765.0,
+      "turn_step_max": 112.5,
+      "max_wind": 52,
+      "max_grade": "SuperTY",
+      "weak": false,
+      "lat0": 8.2,
+      "speed_mean": 17.3
+    },
+    "NARRA": {
+      "name": "NARRA",
+      "name_cn": "紫檀",
+      "turn": 607.5,
+      "turn_step_max": 157.5,
+      "max_wind": 23,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 19.6,
+      "speed_mean": 5.0
+    },
+    "GAENARI": {
+      "name": "GAENARI",
+      "name_cn": "简拉维",
+      "turn": 225.0,
+      "turn_step_max": 90,
+      "max_wind": 18,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 25.4,
+      "speed_mean": 10.8
+    },
+    "ATSANI": {
+      "name": "ATSANI",
+      "name_cn": "艾莎尼",
+      "turn": 22.5,
+      "turn_step_max": 22.5,
+      "max_wind": 18,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 15.2,
+      "speed_mean": 18.3
+    },
+    "ETAU": {
+      "name": "ETAU",
+      "name_cn": "艾涛",
+      "turn": 337.5,
+      "turn_step_max": 112.5,
+      "max_wind": 23,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 21.4,
+      "speed_mean": 16.6
+    },
+    "BANG-LANG": {
+      "name": "BANG-LANG",
+      "name_cn": "班朗",
+      "turn": 90.0,
+      "turn_step_max": 22.5,
+      "max_wind": 33,
+      "max_grade": "TY",
+      "weak": false,
+      "lat0": 19.4,
+      "speed_mean": 29.4
+    },
+    "KROVANH": {
+      "name": "KROVANH",
+      "name_cn": "科罗旺",
+      "turn": 472.5,
+      "turn_step_max": 90,
+      "max_wind": 23,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 22.5,
+      "speed_mean": 12.3
+    },
+    "DUJUAN": {
+      "name": "DUJUAN",
+      "name_cn": "杜鹃",
+      "turn": 382.5,
+      "turn_step_max": 22.5,
+      "max_wind": 35,
+      "max_grade": "TY",
+      "weak": false,
+      "lat0": 16.4,
+      "speed_mean": 28.3
+    },
+    "SURIGAE": {
+      "name": "SURIGAE",
+      "name_cn": "舒力基",
+      "turn": 225.0,
+      "turn_step_max": 22.5,
+      "max_wind": 58,
+      "max_grade": "SuperTY",
+      "weak": false,
+      "lat0": 17.6,
+      "speed_mean": 16.4
+    },
+    "CHOI-WAN": {
+      "name": "CHOI-WAN",
+      "name_cn": "彩云",
+      "turn": 315.0,
+      "turn_step_max": 22.5,
+      "max_wind": 65,
+      "max_grade": "SuperTY",
+      "weak": false,
+      "lat0": 16.4,
+      "speed_mean": 24.2
+    },
+    "KOGUMA": {
+      "name": "KOGUMA",
+      "name_cn": "小熊\n",
+      "turn": 292.5,
+      "turn_step_max": 22.5,
+      "max_wind": 58,
+      "max_grade": "SuperTY",
+      "weak": false,
+      "lat0": 10.4,
+      "speed_mean": 22.5
+    },
+    "NOLO": {
+      "name": "NOLO",
+      "name_cn": "诺洛",
+      "turn": 270.0,
+      "turn_step_max": 22.5,
+      "max_wind": 52,
+      "max_grade": "SuperTY",
+      "weak": false,
+      "lat0": 24.8,
+      "speed_mean": 26.2
+    },
+    "CHAMPI": {
+      "name": "CHAMPI",
+      "name_cn": "蔷琵",
+      "turn": 450.0,
+      "turn_step_max": 45.0,
+      "max_wind": 68,
+      "max_grade": "SuperTY",
+      "weak": false,
+      "lat0": 10.5,
+      "speed_mean": 18.9
+    },
+    "IN-FA": {
+      "name": "IN-FA",
+      "name_cn": "烟花",
+      "turn": 247.5,
+      "turn_step_max": 67.5,
+      "max_wind": 60,
+      "max_grade": "SuperTY",
+      "weak": false,
+      "lat0": 10.4,
+      "speed_mean": 16.6
+    }
+  },
+  "dims": {
+    "turn_45": {
+      "转向": {
+        "24h": {
+          "median": 52.0,
+          "ci": [
+            45.7,
+            62.2
+          ],
+          "n_pairs": 1602,
+          "n_tc": 28
+        },
+        "48h": {
+          "median": 83.8,
+          "ci": [
+            72.9,
+            95.1
+          ],
+          "n_pairs": 1221,
+          "n_tc": 26
+        },
+        "72h": {
+          "median": 131.1,
+          "ci": [
+            108.4,
+            160.9
+          ],
+          "n_pairs": 858,
+          "n_tc": 22
+        },
+        "96h": {
+          "median": 158.9,
+          "ci": [
+            128.2,
+            200.2
+          ],
+          "n_pairs": 608,
+          "n_tc": 21
+        },
+        "120h": {
+          "median": 221.1,
+          "ci": [
+            168.6,
+            290.7
+          ],
+          "n_pairs": 440,
+          "n_tc": 17
+        }
+      },
+      "直行": {
+        "24h": {
+          "median": 81.0,
+          "ci": [
+            73.8,
+            88.3
+          ],
+          "n_pairs": 12,
+          "n_tc": 2
+        },
+        "48h": {
+          "median": 197.6,
+          "ci": [
+            197.6,
+            197.6
+          ],
+          "n_pairs": 1,
+          "n_tc": 1
+        }
+      }
+    },
+    "turn_90": {
+      "转向": {
+        "24h": {
+          "median": 50.7,
+          "ci": [
+            45.5,
+            59.6
+          ],
+          "n_pairs": 1555,
+          "n_tc": 25
+        },
+        "48h": {
+          "median": 83.6,
+          "ci": [
+            70.2,
+            95.0
+          ],
+          "n_pairs": 1197,
+          "n_tc": 24
+        },
+        "72h": {
+          "median": 132.0,
+          "ci": [
+            108.1,
+            162.8
+          ],
+          "n_pairs": 849,
+          "n_tc": 21
+        },
+        "96h": {
+          "median": 159.3,
+          "ci": [
+            127.1,
+            199.9
+          ],
+          "n_pairs": 607,
+          "n_tc": 20
+        },
+        "120h": {
+          "median": 221.1,
+          "ci": [
+            168.6,
+            290.4
+          ],
+          "n_pairs": 440,
+          "n_tc": 17
+        }
+      },
+      "直行": {
+        "24h": {
+          "median": 77.8,
+          "ci": [
+            73.8,
+            89.4
+          ],
+          "n_pairs": 59,
+          "n_tc": 5
+        },
+        "48h": {
+          "median": 134.2,
+          "ci": [
+            95.2,
+            320.3
+          ],
+          "n_pairs": 25,
+          "n_tc": 3
+        },
+        "72h": {
+          "median": 67.6,
+          "ci": [
+            67.6,
+            67.6
+          ],
+          "n_pairs": 9,
+          "n_tc": 1
+        },
+        "96h": {
+          "median": 39.9,
+          "ci": [
+            39.9,
+            39.9
+          ],
+          "n_pairs": 1,
+          "n_tc": 1
+        }
+      }
+    },
+    "turn_135": {
+      "转向": {
+        "24h": {
+          "median": 49.5,
+          "ci": [
+            44.5,
+            59.9
+          ],
+          "n_pairs": 1453,
+          "n_tc": 21
+        },
+        "48h": {
+          "median": 83.4,
+          "ci": [
+            69.8,
+            94.5
+          ],
+          "n_pairs": 1140,
+          "n_tc": 21
+        },
+        "72h": {
+          "median": 131.5,
+          "ci": [
+            108.2,
+            159.2
+          ],
+          "n_pairs": 828,
+          "n_tc": 19
+        },
+        "96h": {
+          "median": 158.9,
+          "ci": [
+            127.7,
+            199.9
+          ],
+          "n_pairs": 602,
+          "n_tc": 18
+        },
+        "120h": {
+          "median": 221.1,
+          "ci": [
+            167.1,
+            292.9
+          ],
+          "n_pairs": 440,
+          "n_tc": 17
+        }
+      },
+      "直行": {
+        "24h": {
+          "median": 67.6,
+          "ci": [
+            49.3,
+            114.7
+          ],
+          "n_pairs": 161,
+          "n_tc": 9
+        },
+        "48h": {
+          "median": 113.1,
+          "ci": [
+            81.1,
+            213.2
+          ],
+          "n_pairs": 82,
+          "n_tc": 6
+        },
+        "72h": {
+          "median": 104.8,
+          "ci": [
+            67.6,
+            199.7
+          ],
+          "n_pairs": 30,
+          "n_tc": 3
+        },
+        "96h": {
+          "median": 160.4,
+          "ci": [
+            39.9,
+            279.8
+          ],
+          "n_pairs": 6,
+          "n_tc": 3
+        }
+      }
+    },
+    "strength": {
+      "弱（≤STS）": {
+        "24h": {
+          "median": 77.6,
+          "ci": [
+            69.8,
+            98.7
+          ],
+          "n_pairs": 479,
+          "n_tc": 15
+        },
+        "48h": {
+          "median": 118.7,
+          "ci": [
+            89.1,
+            146.1
+          ],
+          "n_pairs": 303,
+          "n_tc": 12
+        },
+        "72h": {
+          "median": 193.3,
+          "ci": [
+            126.2,
+            211.2
+          ],
+          "n_pairs": 190,
+          "n_tc": 8
+        },
+        "96h": {
+          "median": 181.4,
+          "ci": [
+            129.5,
+            310.8
+          ],
+          "n_pairs": 101,
+          "n_tc": 7
+        },
+        "120h": {
+          "median": 389.7,
+          "ci": [
+            241.4,
+            505.3
+          ],
+          "n_pairs": 47,
+          "n_tc": 4
+        }
+      },
+      "强（TY+）": {
+        "24h": {
+          "median": 44.6,
+          "ci": [
+            39.1,
+            46.4
+          ],
+          "n_pairs": 1135,
+          "n_tc": 15
+        },
+        "48h": {
+          "median": 77.5,
+          "ci": [
+            66.1,
+            86.5
+          ],
+          "n_pairs": 919,
+          "n_tc": 15
+        },
+        "72h": {
+          "median": 118.0,
+          "ci": [
+            92.4,
+            143.4
+          ],
+          "n_pairs": 668,
+          "n_tc": 14
+        },
+        "96h": {
+          "median": 156.9,
+          "ci": [
+            117.6,
+            199.6
+          ],
+          "n_pairs": 507,
+          "n_tc": 14
+        },
+        "120h": {
+          "median": 209.4,
+          "ci": [
+            164.2,
+            276.8
+          ],
+          "n_pairs": 393,
+          "n_tc": 13
+        }
+      }
+    },
+    "lat0": {
+      "低纬 <15°": {
+        "24h": {
+          "median": 47.0,
+          "ci": [
+            44.7,
+            52.2
+          ],
+          "n_pairs": 1064,
+          "n_tc": 15
+        },
+        "48h": {
+          "median": 76.7,
+          "ci": [
+            66.1,
+            85.9
+          ],
+          "n_pairs": 846,
+          "n_tc": 13
+        },
+        "72h": {
+          "median": 113.3,
+          "ci": [
+            91.0,
+            134.5
+          ],
+          "n_pairs": 627,
+          "n_tc": 12
+        },
+        "96h": {
+          "median": 147.7,
+          "ci": [
+            110.6,
+            191.0
+          ],
+          "n_pairs": 471,
+          "n_tc": 12
+        },
+        "120h": {
+          "median": 193.8,
+          "ci": [
+            157.4,
+            268.0
+          ],
+          "n_pairs": 375,
+          "n_tc": 10
+        }
+      },
+      "中纬 15–25°": {
+        "24h": {
+          "median": 61.9,
+          "ci": [
+            43.2,
+            73.7
+          ],
+          "n_pairs": 517,
+          "n_tc": 14
+        },
+        "48h": {
+          "median": 102.8,
+          "ci": [
+            81.9,
+            125.4
+          ],
+          "n_pairs": 369,
+          "n_tc": 13
+        },
+        "72h": {
+          "median": 185.8,
+          "ci": [
+            138.1,
+            211.5
+          ],
+          "n_pairs": 231,
+          "n_tc": 10
+        },
+        "96h": {
+          "median": 248.2,
+          "ci": [
+            152.4,
+            359.9
+          ],
+          "n_pairs": 137,
+          "n_tc": 9
+        },
+        "120h": {
+          "median": 420.7,
+          "ci": [
+            241.4,
+            489.6
+          ],
+          "n_pairs": 65,
+          "n_tc": 7
+        }
+      },
+      "高纬 >25°": {
+        "24h": {
+          "median": 152.0,
+          "ci": [
+            152.0,
+            152.0
+          ],
+          "n_pairs": 33,
+          "n_tc": 1
+        },
+        "48h": {
+          "median": 164.1,
+          "ci": [
+            164.1,
+            164.1
+          ],
+          "n_pairs": 7,
+          "n_tc": 1
+        }
+      }
+    },
+    "turnstep": {
+      "急转（单步>40°）": {
+        "24h": {
+          "median": 63.8,
+          "ci": [
+            52.9,
+            76.4
+          ],
+          "n_pairs": 741,
+          "n_tc": 14
+        },
+        "48h": {
+          "median": 95.1,
+          "ci": [
+            84.7,
+            116.7
+          ],
+          "n_pairs": 526,
+          "n_tc": 12
+        },
+        "72h": {
+          "median": 155.7,
+          "ci": [
+            116.4,
+            201.0
+          ],
+          "n_pairs": 357,
+          "n_tc": 9
+        },
+        "96h": {
+          "median": 165.3,
+          "ci": [
+            125.5,
+            248.2
+          ],
+          "n_pairs": 237,
+          "n_tc": 8
+        },
+        "120h": {
+          "median": 241.4,
+          "ci": [
+            146.8,
+            389.7
+          ],
+          "n_pairs": 155,
+          "n_tc": 7
+        }
+      },
+      "平稳": {
+        "24h": {
+          "median": 44.8,
+          "ci": [
+            39.1,
+            48.7
+          ],
+          "n_pairs": 873,
+          "n_tc": 16
+        },
+        "48h": {
+          "median": 74.3,
+          "ci": [
+            63.1,
+            88.8
+          ],
+          "n_pairs": 696,
+          "n_tc": 15
+        },
+        "72h": {
+          "median": 118.7,
+          "ci": [
+            89.2,
+            148.7
+          ],
+          "n_pairs": 501,
+          "n_tc": 13
+        },
+        "96h": {
+          "median": 157.7,
+          "ci": [
+            113.5,
+            211.1
+          ],
+          "n_pairs": 371,
+          "n_tc": 13
+        },
+        "120h": {
+          "median": 207.8,
+          "ci": [
+            158.8,
+            348.7
+          ],
+          "n_pairs": 285,
+          "n_tc": 10
+        }
+      }
+    },
+    "speed": {
+      "慢 <15": {
+        "24h": {
+          "median": 72.8,
+          "ci": [
+            53.7,
+            97.7
+          ],
+          "n_pairs": 317,
+          "n_tc": 8
+        },
+        "48h": {
+          "median": 108.2,
+          "ci": [
+            85.7,
+            131.1
+          ],
+          "n_pairs": 227,
+          "n_tc": 5
+        },
+        "72h": {
+          "median": 185.6,
+          "ci": [
+            139.4,
+            211.2
+          ],
+          "n_pairs": 162,
+          "n_tc": 4
+        },
+        "96h": {
+          "median": 196.1,
+          "ci": [
+            150.9,
+            298.0
+          ],
+          "n_pairs": 114,
+          "n_tc": 4
+        },
+        "120h": {
+          "median": 275.8,
+          "ci": [
+            241.4,
+            280.6
+          ],
+          "n_pairs": 72,
+          "n_tc": 4
+        }
+      },
+      "中 15–25": {
+        "24h": {
+          "median": 45.8,
+          "ci": [
+            42.4,
+            50.0
+          ],
+          "n_pairs": 1162,
+          "n_tc": 17
+        },
+        "48h": {
+          "median": 74.4,
+          "ci": [
+            64.3,
+            86.5
+          ],
+          "n_pairs": 902,
+          "n_tc": 17
+        },
+        "72h": {
+          "median": 111.7,
+          "ci": [
+            90.9,
+            136.4
+          ],
+          "n_pairs": 640,
+          "n_tc": 15
+        },
+        "96h": {
+          "median": 143.2,
+          "ci": [
+            109.0,
+            189.5
+          ],
+          "n_pairs": 462,
+          "n_tc": 14
+        },
+        "120h": {
+          "median": 195.2,
+          "ci": [
+            157.4,
+            280.8
+          ],
+          "n_pairs": 353,
+          "n_tc": 11
+        }
+      },
+      "快 >25": {
+        "24h": {
+          "median": 62.0,
+          "ci": [
+            42.0,
+            123.7
+          ],
+          "n_pairs": 135,
+          "n_tc": 5
+        },
+        "48h": {
+          "median": 114.0,
+          "ci": [
+            91.8,
+            210.2
+          ],
+          "n_pairs": 93,
+          "n_tc": 5
+        },
+        "72h": {
+          "median": 208.1,
+          "ci": [
+            199.7,
+            224.4
+          ],
+          "n_pairs": 56,
+          "n_tc": 3
+        },
+        "96h": {
+          "median": 422.4,
+          "ci": [
+            279.8,
+            445.3
+          ],
+          "n_pairs": 32,
+          "n_tc": 3
+        },
+        "120h": {
+          "median": 443.1,
+          "ci": [
+            443.1,
+            494.9
+          ],
+          "n_pairs": 15,
+          "n_tc": 2
+        }
+      }
+    }
+  },
+  "corr": {
+    "turn": {
+      "spearman": 0.058,
+      "ci": [
+        -0.449,
+        0.485
+      ],
+      "n": 22
+    },
+    "turn_step_max": {
+      "spearman": 0.395,
+      "ci": [
+        -0.023,
+        0.701
+      ],
+      "n": 22
+    },
+    "max_wind": {
+      "spearman": -0.467,
+      "ci": [
+        -0.828,
+        0.022
+      ],
+      "n": 22
+    },
+    "lat0": {
+      "spearman": 0.52,
+      "ci": [
+        0.019,
+        0.794
+      ],
+      "n": 22
+    },
+    "speed_mean": {
+      "spearman": 0.018,
+      "ci": [
+        -0.429,
+        0.463
+      ],
+      "n": 22
+    }
+  }
+}

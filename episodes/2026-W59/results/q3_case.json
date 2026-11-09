@@ -1,0 +1,304 @@
+{
+  "cases": {
+    "CHAN-HOM": "最难报（CHAN-HOM）",
+    "CHAMPI": "蔷琵（被误判为难报）"
+  },
+  "features": {
+    "CHAN-HOM": {
+      "name": "CHAN-HOM",
+      "name_cn": "灿鸿",
+      "turn": 225.0,
+      "turn_step_max": 45,
+      "max_wind": 20,
+      "max_grade": "TS",
+      "weak": true,
+      "lat0": 19.5,
+      "speed_mean": 24.2
+    },
+    "CHAMPI": {
+      "name": "CHAMPI",
+      "name_cn": "蔷琵",
+      "turn": 450.0,
+      "turn_step_max": 45.0,
+      "max_wind": 68,
+      "max_grade": "SuperTY",
+      "weak": false,
+      "lat0": 10.5,
+      "speed_mean": 18.9
+    }
+  },
+  "error_rank": {
+    "6h": {
+      "season_median": 36.4,
+      "n_tc": 10,
+      "CHAMPI": {
+        "median": 48.0,
+        "percentile": 80.0,
+        "z": 0.24,
+        "n_pairs": 72
+      }
+    },
+    "12h": {
+      "season_median": 44.5,
+      "n_tc": 31,
+      "CHAN-HOM": {
+        "median": 54.8,
+        "percentile": 71.0,
+        "z": 0.24,
+        "n_pairs": 49
+      },
+      "CHAMPI": {
+        "median": 33.4,
+        "percentile": 29.0,
+        "z": -0.68,
+        "n_pairs": 126
+      }
+    },
+    "18h": {
+      "season_median": 49.6,
+      "n_tc": 10,
+      "CHAMPI": {
+        "median": 44.6,
+        "percentile": 30.0,
+        "z": -0.56,
+        "n_pairs": 60
+      }
+    },
+    "24h": {
+      "season_median": 56.1,
+      "n_tc": 30,
+      "CHAN-HOM": {
+        "median": 58.4,
+        "percentile": 53.0,
+        "z": -0.31,
+        "n_pairs": 45
+      },
+      "CHAMPI": {
+        "median": 53.8,
+        "percentile": 50.0,
+        "z": -0.42,
+        "n_pairs": 114
+      }
+    },
+    "36h": {
+      "season_median": 72.0,
+      "n_tc": 28,
+      "CHAN-HOM": {
+        "median": 110.2,
+        "percentile": 79.0,
+        "z": 0.29,
+        "n_pairs": 41
+      },
+      "CHAMPI": {
+        "median": 67.2,
+        "percentile": 46.0,
+        "z": -0.41,
+        "n_pairs": 102
+      }
+    },
+    "48h": {
+      "season_median": 90.4,
+      "n_tc": 27,
+      "CHAN-HOM": {
+        "median": 155.5,
+        "percentile": 78.0,
+        "z": 0.37,
+        "n_pairs": 37
+      },
+      "CHAMPI": {
+        "median": 73.2,
+        "percentile": 26.0,
+        "z": -0.57,
+        "n_pairs": 90
+      }
+    },
+    "60h": {
+      "season_median": 109.6,
+      "n_tc": 25,
+      "CHAN-HOM": {
+        "median": 180.0,
+        "percentile": 84.0,
+        "z": 0.38,
+        "n_pairs": 33
+      },
+      "CHAMPI": {
+        "median": 90.7,
+        "percentile": 24.0,
+        "z": -0.54,
+        "n_pairs": 78
+      }
+    },
+    "72h": {
+      "season_median": 130.7,
+      "n_tc": 22,
+      "CHAN-HOM": {
+        "median": 242.6,
+        "percentile": 100.0,
+        "z": 1.76,
+        "n_pairs": 29
+      },
+      "CHAMPI": {
+        "median": 94.1,
+        "percentile": 18.0,
+        "z": -1.01,
+        "n_pairs": 66
+      }
+    },
+    "96h": {
+      "season_median": 190.7,
+      "n_tc": 21,
+      "CHAN-HOM": {
+        "median": 323.0,
+        "percentile": 90.0,
+        "z": 1.2,
+        "n_pairs": 21
+      },
+      "CHAMPI": {
+        "median": 99.9,
+        "percentile": 19.0,
+        "z": -0.98,
+        "n_pairs": 52
+      }
+    },
+    "120h": {
+      "season_median": 261.2,
+      "n_tc": 17,
+      "CHAN-HOM": {
+        "median": 535.7,
+        "percentile": 100.0,
+        "z": 1.84,
+        "n_pairs": 13
+      },
+      "CHAMPI": {
+        "median": 133.4,
+        "percentile": 12.0,
+        "z": -1.27,
+        "n_pairs": 44
+      }
+    }
+  },
+  "spread": {
+    "6h": {
+      "season_median": 65.5,
+      "season_p90": 91.7,
+      "n_tc": 8,
+      "CHAMPI": {
+        "median": 75.3,
+        "ratio": 1.15
+      }
+    },
+    "12h": {
+      "season_median": 61.6,
+      "season_p90": 84.1,
+      "n_tc": 29,
+      "CHAN-HOM": {
+        "median": 69.9,
+        "ratio": 1.14
+      },
+      "CHAMPI": {
+        "median": 68.4,
+        "ratio": 1.11
+      }
+    },
+    "18h": {
+      "season_median": 69.4,
+      "season_p90": 100.0,
+      "n_tc": 8,
+      "CHAMPI": {
+        "median": 80.4,
+        "ratio": 1.16
+      }
+    },
+    "24h": {
+      "season_median": 56.5,
+      "season_p90": 87.1,
+      "n_tc": 29,
+      "CHAN-HOM": {
+        "median": 68.4,
+        "ratio": 1.21
+      },
+      "CHAMPI": {
+        "median": 62.1,
+        "ratio": 1.1
+      }
+    },
+    "36h": {
+      "season_median": 61.4,
+      "season_p90": 91.8,
+      "n_tc": 28,
+      "CHAN-HOM": {
+        "median": 55.7,
+        "ratio": 0.91
+      },
+      "CHAMPI": {
+        "median": 65.9,
+        "ratio": 1.07
+      }
+    },
+    "48h": {
+      "season_median": 59.3,
+      "season_p90": 87.8,
+      "n_tc": 27,
+      "CHAN-HOM": {
+        "median": 62.2,
+        "ratio": 1.05
+      },
+      "CHAMPI": {
+        "median": 60.9,
+        "ratio": 1.03
+      }
+    },
+    "60h": {
+      "season_median": 59.0,
+      "season_p90": 130.4,
+      "n_tc": 24,
+      "CHAN-HOM": {
+        "median": 69.6,
+        "ratio": 1.18
+      },
+      "CHAMPI": {
+        "median": 69.2,
+        "ratio": 1.17
+      }
+    },
+    "72h": {
+      "season_median": 58.9,
+      "season_p90": 96.8,
+      "n_tc": 23,
+      "CHAN-HOM": {
+        "median": 77.8,
+        "ratio": 1.32
+      },
+      "CHAMPI": {
+        "median": 75.0,
+        "ratio": 1.27
+      }
+    },
+    "96h": {
+      "season_median": 74.9,
+      "season_p90": 127.5,
+      "n_tc": 23,
+      "CHAN-HOM": {
+        "median": 61.7,
+        "ratio": 0.82
+      },
+      "CHAMPI": {
+        "median": 85.4,
+        "ratio": 1.14
+      }
+    },
+    "120h": {
+      "season_median": 65.8,
+      "season_p90": 136.3,
+      "n_tc": 18,
+      "CHAN-HOM": {
+        "median": 98.3,
+        "ratio": 1.49
+      },
+      "CHAMPI": {
+        "median": 74.1,
+        "ratio": 1.13
+      }
+    }
+  }
+}
