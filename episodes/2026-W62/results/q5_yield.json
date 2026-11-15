@@ -1,0 +1,62 @@
+{
+  "revs_per_day": 15.1,
+  "n_sats": 48,
+  "claim": 30000,
+  "products_per_event": [
+    1,
+    2,
+    3
+  ],
+  "scenarios": {
+    "只支持 GPS（N_vis≈12）": {
+      "n_vis": 12,
+      "per_sat_range": [
+        72,
+        127,
+        181
+      ],
+      "constellation_range": [
+        3479,
+        6088,
+        8698
+      ]
+    },
+    "双系统（N_vis≈20）": {
+      "n_vis": 20,
+      "per_sat_range": [
+        121,
+        211,
+        302
+      ],
+      "constellation_range": [
+        5798,
+        10147,
+        14496
+      ]
+    },
+    "四系统（N_vis≈30）": {
+      "n_vis": 30,
+      "per_sat_range": [
+        181,
+        317,
+        453
+      ],
+      "constellation_range": [
+        8698,
+        15221,
+        21744
+      ]
+    }
+  },
+  "reconcile": {
+    "events_per_day_48sats": 15221,
+    "profiles_with_2_products": 30442,
+    "claim": 30000,
+    "verdict": "事件数约 1.5 万；按「一次事件两个产品」计约 3 万 —— 与公开说法一致"
+  },
+  "sats_needed_for_claim": [
+    166,
+    95,
+    66
+  ]
+}

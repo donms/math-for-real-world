@@ -1,0 +1,23 @@
+{
+  "theta_deg": 21.93,
+  "theta_by_height": {
+    "h=0km": 22.59,
+    "h=10km": 22.37,
+    "h=30km": 21.93,
+    "h=60km": 21.26,
+    "h=100km": 20.32
+  },
+  "groups": {
+    "A · 50°": {
+      "share_above_60": 0.04,
+      "share_above_70": 0.005,
+      "share_mid_20_50": 0.248
+    },
+    "B · 97.6°": {
+      "share_above_60": 0.139,
+      "share_above_70": 0.08,
+      "share_mid_20_50": 0.178
+    }
+  },
+  "mid_ratio_A_over_B": 1.39
+}

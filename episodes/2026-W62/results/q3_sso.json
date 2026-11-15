@@ -1,0 +1,53 @@
+{
+  "mean_alt_km": 530.7,
+  "mean_inc_meas": 97.611,
+  "inc_theory": 97.519,
+  "delta_deg": 0.092,
+  "raan_extra_deg_per_day": 0.012,
+  "local_time_drift_min_per_day": 0.048,
+  "local_time_drift_min_per_year": 17.5,
+  "per_sat": [
+    {
+      "name": "YUNYAO-1 43",
+      "alt": 531.2,
+      "inc_meas": 97.611,
+      "inc_theory": 97.521,
+      "delta_deg": 0.091
+    },
+    {
+      "name": "YUNYAO-1 44",
+      "alt": 530.8,
+      "inc_meas": 97.61,
+      "inc_theory": 97.519,
+      "delta_deg": 0.091
+    },
+    {
+      "name": "YUNYAO-1 45",
+      "alt": 530.9,
+      "inc_meas": 97.612,
+      "inc_theory": 97.519,
+      "delta_deg": 0.093
+    },
+    {
+      "name": "YUNYAO-1 46",
+      "alt": 531.2,
+      "inc_meas": 97.612,
+      "inc_theory": 97.521,
+      "delta_deg": 0.092
+    },
+    {
+      "name": "YUNYAO-1 47",
+      "alt": 530.3,
+      "inc_meas": 97.609,
+      "inc_theory": 97.517,
+      "delta_deg": 0.092
+    },
+    {
+      "name": "YUNYAO-1 48",
+      "alt": 530.1,
+      "inc_meas": 97.61,
+      "inc_theory": 97.517,
+      "delta_deg": 0.094
+    }
+  ]
+}

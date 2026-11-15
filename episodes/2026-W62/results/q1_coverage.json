@@ -1,0 +1,24 @@
+{
+  "groups": {
+    "A · 50°": {
+      "sat": "YUNYAO-1 19",
+      "inc": 49.984,
+      "alt_km": 504.8,
+      "max_lat": 49.98,
+      "period_min": 94.72,
+      "revs_per_day": 15.2,
+      "equator_gap_deg": 24.12,
+      "equator_gap_km": 2685.0
+    },
+    "B · 97.6°": {
+      "sat": "YUNYAO-1 43",
+      "inc": 97.611,
+      "alt_km": 531.2,
+      "max_lat": 82.39,
+      "period_min": 95.26,
+      "revs_per_day": 15.12,
+      "equator_gap_deg": 23.81,
+      "equator_gap_km": 2650.0
+    }
+  }
+}
