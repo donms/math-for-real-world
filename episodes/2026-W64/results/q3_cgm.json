@@ -1,0 +1,50 @@
+{
+  "rows": [
+    {
+      "tau": 0.5,
+      "peak_isf": 148.8,
+      "peak_tt_isf": 55.5,
+      "peak_true": 148.8,
+      "peak_tt_true": 55.0,
+      "delay_min": 0.5,
+      "peak_drop": 0.0
+    },
+    {
+      "tau": 3.0,
+      "peak_isf": 148.6,
+      "peak_tt_isf": 58.5,
+      "peak_true": 148.8,
+      "peak_tt_true": 55.0,
+      "delay_min": 3.5,
+      "peak_drop": 0.3
+    },
+    {
+      "tau": 8.0,
+      "peak_isf": 147.0,
+      "peak_tt_isf": 63.5,
+      "peak_true": 148.8,
+      "peak_tt_true": 55.0,
+      "delay_min": 8.5,
+      "peak_drop": 1.9
+    },
+    {
+      "tau": 15.0,
+      "peak_isf": 143.4,
+      "peak_tt_isf": 70.5,
+      "peak_true": 148.8,
+      "peak_tt_true": 55.0,
+      "delay_min": 15.5,
+      "peak_drop": 5.4
+    },
+    {
+      "tau": 25.0,
+      "peak_isf": 138.1,
+      "peak_tt_isf": 78.0,
+      "peak_true": 148.8,
+      "peak_tt_true": 55.0,
+      "delay_min": 23.0,
+      "peak_drop": 10.8
+    }
+  ],
+  "example_tau": 15.0
+}
