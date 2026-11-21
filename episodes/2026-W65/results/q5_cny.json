@@ -1,0 +1,11 @@
+{
+  "n_common_days": 2056,
+  "dd_usd_pct": -33.9,
+  "dd_cny_const_fx_pct": -33.9,
+  "dd_cny_conv_pct": -36.64,
+  "dd_cny_actual_pct": -38.49,
+  "fx_first": 6.9583,
+  "fx_last": 6.6665,
+  "fx_contribution_pct": -2.74,
+  "cross_validation_err_pct": -1.45
+}

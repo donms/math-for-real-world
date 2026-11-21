@@ -1,0 +1,23 @@
+{
+  "threshold_pct": 5.0,
+  "n_events": 22,
+  "n_exceed": 22,
+  "lambda_per_year": 2.2,
+  "xi": 0.3028,
+  "beta": 0.0371,
+  "xi_bootstrap_median": 0.2307,
+  "rp_30y_est": 17.91,
+  "rp_30y_ci90": [
+    7.26,
+    917.51
+  ],
+  "observed_max_pct": 33.9,
+  "empirical": {
+    "15%": 3.3,
+    "20%": 5.0,
+    "25%": 10.0,
+    "30%": 10.0
+  },
+  "unit_note": "样本单位为「事件峰」，不是「天」",
+  "bootstrap_n": 1863
+}

@@ -1,0 +1,26 @@
+{
+  "episodes": [
+    {
+      "start": "2021-02-26",
+      "depth": -18.91,
+      "days": 371,
+      "ongoing": false
+    },
+    {
+      "start": "2022-07-06",
+      "depth": -21.19,
+      "days": 254,
+      "ongoing": false
+    },
+    {
+      "start": "2026-03-23",
+      "depth": -33.9,
+      "days": 242,
+      "ongoing": true
+    }
+  ],
+  "avg_completed_duration_days": 312.5,
+  "current_ongoing_days": 242,
+  "censoring": "本次为右删失：观测到 ≥242 天，终点未知，不与已结束事件比较快慢",
+  "note": "已结束事件的持续时间只作描述，不是对本次的预测"
+}
